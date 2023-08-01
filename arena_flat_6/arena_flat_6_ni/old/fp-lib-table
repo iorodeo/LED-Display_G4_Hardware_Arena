@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "pololu_D24V6Fx")(type "KiCad")(uri "${KIPRJMOD}/pololu_D24V6Fx.pretty")(options "")(descr ""))
-)

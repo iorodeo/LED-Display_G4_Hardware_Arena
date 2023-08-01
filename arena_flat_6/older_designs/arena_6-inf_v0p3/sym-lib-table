@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name arena_6-inf_v0p3)(type Legacy)(uri ${KIPRJMOD}/arena_6-inf_v0p3.lib)(options "")(descr ""))
-  (lib (name mosfet_nchan)(type Legacy)(uri ${KIPRJMOD}/mosfet_nchan.lib)(options "")(descr ""))
-)

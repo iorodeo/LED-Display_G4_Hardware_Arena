@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name conn15)(type Legacy)(uri ${KIPRJMOD}/conn15.lib)(options "")(descr ""))
-)

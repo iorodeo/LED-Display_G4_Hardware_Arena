@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "arena_custom")(type "KiCad")(uri "${KIPRJMOD}/arena_custom.pretty")(options "")(descr ""))
-)
