@@ -8,8 +8,11 @@ Reiser, Michael B.; Dickinson, Michael H. (2008): "A modular display system for 
 
 Before June 2020, this repository was hosted on `https://bitbucket.org/mreiser`.
 
+
 ## Changelog
 
+- _2023-08-01_: Cleanup
+- _2023-07-14_: added flat arenas
 - _2021-11_: added more historic designs, update documentation.
 - _2020-10-07_: added arena 12-12 files
 - _2020-08-26_: update arena 12-18 to v1.2
