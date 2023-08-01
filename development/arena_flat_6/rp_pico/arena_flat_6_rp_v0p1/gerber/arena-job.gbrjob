@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.2-6a45011f42~172~ubuntu22.04.1"
+      "Version": "7.0.5"
     },
-    "CreationDate": "2023-06-12T08:30:37-07:00"
+    "CreationDate": "2023-06-20T08:55:59-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -78,6 +78,16 @@
       "Path": "arena-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
+    },
+    {
+      "Path": "arena-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "arena-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
     },
     {
       "Path": "arena-Edge_Cuts.gm1",
