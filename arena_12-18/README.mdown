@@ -1,0 +1,25 @@
+# File description
+
+## `Arena_11-18_holder.svg`
+
+Outline for laser cutting the top arena. The top part mainly provides structural integrity to the
+arena, but has no electrical function. Cutting the top arena from acrylic is easier to modify if
+more space is needed in the rig. It also saves money and is often quicker done than ordering and
+assembling yet another PCB. The holder is designed for 11 columns since most 12-18 setups in the
+lab are operated as 11-18.
+
+The `Arena_11-18_holder.svg` file contains 4 layers:
+
+- _panel holes_: the holes needed for the top connectors of each column of G4 panels
+- _mount points_: holes that are used for mounting the top arena holder to the bottom
+- _small footprint_: an outline with minimal material use
+- _big footprint_: more stable outline
+
+In most cases you will need to have _panel holes_, _mount points_, and one of the footprints
+visible and exported to your laser cutter.
+
+
+## `Arena_bottom_V1.brd`
+
+Cadence PCB design files. The content of `production_v1` and `production_v2` are based on this
+design.
