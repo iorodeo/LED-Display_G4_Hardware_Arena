@@ -49,7 +49,7 @@ The Arena 12-18 populates 12 out of 18 sides of a regular octadecagon with panel
 __Arena 12-18 Version 1__ and 2 are based on the same [schematic](assets/arena_12-18_bottom_schematics.pdf), differences are in routing. Also, __Arena 12-18 v2.0__ uses hidden vias, is more difficult and expensive to manufacture, and has not been used as often as boards from version 1 (and we cannot share the design files at this point). Consequently we recommend using the newest version 1 at the moment, archived at `arena_12-18/production_v1/arena_12-18_v1p1.zip`. The Arena 12-18 v1.1 is a 7 layer PCB with a footprint of 299×206mm². For a more detailed description and changelog see the `README.mdown` file in `arena_12-18/production_v1/`.
 
 ![Rendering of the 12-18 arena holder](assets/arena_12-18_holder_render.png){:standalone .ifr data-img-class="pop"}
-For some arenas, one board required physical but not electrical connection. In this case a laser cut board, for example from acrylic, is good enough. We share a file `Arena_holder.svg` that can be used to laser cut this type of board inside the arena_12-18 folder.
+For some arenas, one board required physical but not electrical connection. In this case a laser cut board, for example from acrylic, is good enough. We share a file `Arena_11-18_holder.svg` that can be used to laser cut this type of board inside the `arena_12-18` folder. See the local README.mdown file for further descriptions.
 
 ## Arena Interconnect Board {#interconnect}
 
