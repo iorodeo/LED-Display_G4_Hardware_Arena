@@ -1,0 +1,134 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a2511654-3a17-43f1-8b9e-c45e375533dc)
+
+  (paper "User" 279.4 203.2)
+
+  (title_block
+    (date "11 jun 2015")
+  )
+
+  (lib_symbols
+  )
+
+  (bus_alias "POW" (members "5V_HDR_1" "5V_HDR_2" "5V_HDR_3" "5V_HDR_4" "5V_HDR_5" "5V_HDR_6" "5V_HDR_7" "5V_HDR_8" "5V_HDR_9" "5V_HDR_10" "5V_HDR_11" "5V_HDR_12"))
+
+  (bus (pts (xy 127.254 58.42) (xy 136.144 58.42))
+    (stroke (width 0) (type default))
+    (uuid 11599b83-9845-413e-9811-ae4cea08730c)
+  )
+  (bus (pts (xy 85.471 58.42) (xy 94.107 58.42))
+    (stroke (width 0) (type default))
+    (uuid f5401b2d-5891-43a2-81cd-8d19a85723fd)
+  )
+
+  (text "12-12 NI Arena" (at 113.03 33.02 0)
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
+    (uuid 5a21ad0e-00ff-4028-aa06-98e7a7edcffd)
+  )
+
+  (sheet (at 94.107 49.784) (size 33.147 18.034) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 089bb880-f417-4f64-98ac-7a8591f9a34e)
+    (property "Sheetname" "Level Shifters" (at 94.107 49.0724 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "level_shifters.kicad_sch" (at 94.107 68.4026 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "PAN5V{PAN}" bidirectional (at 127.254 58.42 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 7ac534d2-0cc4-4d65-b750-e1b075b9ae6a)
+    )
+    (pin "PAN3V{PAN}" bidirectional (at 94.107 58.42 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 19fd3241-05d5-474e-b3ef-60c76b30b5ca)
+    )
+    (instances
+      (project "ni_arena_12-12"
+        (path "/a2511654-3a17-43f1-8b9e-c45e375533dc" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 175.26 49.784) (size 27.432 18.161) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 17861c68-32c3-4000-8a50-4f303c28fa47)
+    (property "Sheetname" "Power & Voltage Regulators" (at 175.26 49.0724 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 175.26 68.5296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ni_arena_12-12"
+        (path "/a2511654-3a17-43f1-8b9e-c45e375533dc" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 115.951 83.693) (size 30.226 18.034) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 24a22302-295f-4a79-8162-dc1243f756aa)
+    (property "Sheetname" "Ground Holes" (at 115.951 82.9814 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "holes.kicad_sch" (at 115.951 102.3116 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ni_arena_12-12"
+        (path "/a2511654-3a17-43f1-8b9e-c45e375533dc" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 136.144 49.784) (size 30.226 18.161) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ad9c294f-d898-4a63-8d96-c5c7fb69f139)
+    (property "Sheetname" "Panel Headers" (at 136.144 49.0724 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "panel_headers.kicad_sch" (at 136.144 68.5296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "PAN5V{PAN}" bidirectional (at 136.144 58.42 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 14e82bed-75aa-42e2-aadf-1d362ed4ae92)
+    )
+    (instances
+      (project "ni_arena_12-12"
+        (path "/a2511654-3a17-43f1-8b9e-c45e375533dc" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 60.452 49.403) (size 25.019 18.034) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cf1bf6c0-d319-44c6-9ef9-a2dffab7743b)
+    (property "Sheetname" "NI Connector" (at 60.452 48.6914 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ni_connector.kicad_sch" (at 60.452 68.0216 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "PAN3V{PAN}" bidirectional (at 85.471 58.42 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid f5f48d57-9bba-4a86-a90b-e43a06fe65d8)
+    )
+    (instances
+      (project "ni_arena_12-12"
+        (path "/a2511654-3a17-43f1-8b9e-c45e375533dc" (page "7"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

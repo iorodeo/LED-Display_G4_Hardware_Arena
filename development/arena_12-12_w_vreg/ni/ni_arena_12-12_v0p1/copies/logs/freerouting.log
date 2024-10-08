@@ -1,0 +1,21 @@
+2024-10-01 08:04:44.903 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-10-01 08:04:44.936 [main] INFO  Settings were loaded from freerouting.json
+2024-10-01 08:04:45.952 [main] INFO  Opening 'ni_arena_12-12.dsn'...
+2024-10-01 08:04:45.950 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-10-01 08:04:46.000 [main] ERROR ni_arena_12-12.dsn (No such file or directory)
+java.io.FileNotFoundException: ni_arena_12-12.dsn (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at app.freerouting.gui.DesignFile.get_input_stream(DesignFile.java:147) [freerouting-executable.jar:unspecified]
+	at app.freerouting.gui.MainApplication.create_board_frame(MainApplication.java:569) [freerouting-executable.jar:unspecified]
+	at app.freerouting.gui.MainApplication.main(MainApplication.java:362) [freerouting-executable.jar:unspecified]
+2024-10-01 08:04:46.051 [main] WARN  Couldn't create window frame

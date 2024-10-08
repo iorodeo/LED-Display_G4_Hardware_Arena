@@ -1,0 +1,134 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a2511654-3a17-43f1-8b9e-c45e375533dc)
+
+  (paper "User" 279.4 203.2)
+
+  (title_block
+    (date "11 jun 2015")
+  )
+
+  (lib_symbols
+  )
+
+  (bus_alias "POW" (members "5V_HDR_1" "5V_HDR_2" "5V_HDR_3" "5V_HDR_4" "5V_HDR_5" "5V_HDR_6" "5V_HDR_7" "5V_HDR_8" "5V_HDR_9" "5V_HDR_10" "5V_HDR_11" "5V_HDR_12"))
+
+  (bus (pts (xy 127.254 58.42) (xy 136.144 58.42))
+    (stroke (width 0) (type default))
+    (uuid 11599b83-9845-413e-9811-ae4cea08730c)
+  )
+  (bus (pts (xy 85.471 58.42) (xy 94.107 58.42))
+    (stroke (width 0) (type default))
+    (uuid a477b9ef-abf4-450a-83f5-c73ed272da54)
+  )
+
+  (text "12-12 Teensy Arena" (at 113.03 33.02 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 5a21ad0e-00ff-4028-aa06-98e7a7edcffd)
+  )
+
+  (sheet (at 94.107 49.784) (size 33.147 18.034) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 089bb880-f417-4f64-98ac-7a8591f9a34e)
+    (property "Sheetname" "Level Shifters" (at 94.107 49.0724 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "level_shifters.kicad_sch" (at 94.107 68.4026 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "PAN5V{PAN}" bidirectional (at 127.254 58.42 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 480d7a5f-a5ec-4daa-b239-a93636939131)
+    )
+    (pin "PAN3V{PAN}" bidirectional (at 94.107 58.42 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 5d4f953c-19b0-4f53-bd0d-b3422a7632b8)
+    )
+    (instances
+      (project "teensy_arena_12-12"
+        (path "/a2511654-3a17-43f1-8b9e-c45e375533dc" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 175.26 49.784) (size 27.432 18.161) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 17861c68-32c3-4000-8a50-4f303c28fa47)
+    (property "Sheetname" "Power" (at 175.26 49.0724 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 175.26 68.5296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "teensy_arena_12-12"
+        (path "/a2511654-3a17-43f1-8b9e-c45e375533dc" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 115.951 83.693) (size 30.226 18.034) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 24a22302-295f-4a79-8162-dc1243f756aa)
+    (property "Sheetname" "Ground Holes" (at 115.951 82.9814 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "holes.kicad_sch" (at 115.951 102.3116 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "teensy_arena_12-12"
+        (path "/a2511654-3a17-43f1-8b9e-c45e375533dc" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 60.452 49.784) (size 25.019 18.034) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5b6d0be6-08d3-404a-9e9b-565c640343d3)
+    (property "Sheetname" "Teensy" (at 60.452 49.0724 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "teensy.kicad_sch" (at 60.452 68.4026 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "PAN3V{PAN}" bidirectional (at 85.471 58.42 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 8d9a1fff-6639-4fa2-a0c8-4120bae8a6b8)
+    )
+    (instances
+      (project "teensy_arena_12-12"
+        (path "/a2511654-3a17-43f1-8b9e-c45e375533dc" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 136.144 49.784) (size 30.226 18.161) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ad9c294f-d898-4a63-8d96-c5c7fb69f139)
+    (property "Sheetname" "Panel Headers" (at 136.144 49.0724 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "panel_headers.kicad_sch" (at 136.144 68.5296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "PAN5V{PAN}" bidirectional (at 136.144 58.42 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 49aa195d-e245-46fa-8354-affe8b81a14d)
+    )
+    (instances
+      (project "teensy_arena_12-12"
+        (path "/a2511654-3a17-43f1-8b9e-c45e375533dc" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

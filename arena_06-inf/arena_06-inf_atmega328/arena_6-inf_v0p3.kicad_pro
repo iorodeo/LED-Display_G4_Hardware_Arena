@@ -391,7 +391,11 @@
     "pinned_symbol_libs": []
   },
   "meta": {
+<<<<<<<< HEAD:arena_06-inf/arena_06-inf_atmega328/arena_6-inf_v0p3.kicad_pro
     "filename": "arena_6-inf_v0p3.kicad_pro",
+========
+    "filename": "arena_06-inf_raspberry-pi.kicad_pro",
+>>>>>>>> iorodeo-main:arena_06-inf/arena_06-inf_raspberry-pi/arena_06-inf_raspberry-pi.kicad_pro
     "version": 1
   },
   "net_settings": {

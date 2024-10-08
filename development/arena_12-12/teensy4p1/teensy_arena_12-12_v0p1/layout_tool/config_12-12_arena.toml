@@ -1,0 +1,59 @@
+[units]          
+angle = 'deg'        # Units used for angles
+length = 'mm'        # units used for lengths
+
+[panel]              # Panel parameters
+number = 12          # number of panels in  the arena
+omitted = []         # list  of omitted panels
+offset_angle = 0     # offset angle for panel position
+width = 40.5         # width of panels 
+depth = 15           # depth from front to back of panels 
+
+[pins]               # Header pin parameters
+number = 15          # number of header pins
+pitch = 2.54         # pitch (distance) between header pins
+depth = 13.1         # depth from front to header pins 
+omitted = []         # pins omitted from header
+
+[pcb]
+size_x = 228.6       # PCB size in x-dimension
+size_y = 228.6       # PCB size in y-dimension
+center_x = 177.8     # PCB center x-coordinate
+center_y = 177.8     # PCB center y-coordinate 
+line_width = 0.3     # PCB edge line width
+cutout_diam = 157.0  # Inside hole radius
+
+[pcb.panel]
+ref_prefix = 'P'     # Symbol prefix for panel headers
+ref_start = 1        # Start number for panel headers
+
+[pcb.relative]
+model = 1            # Model for relative component placement
+
+# Lists of relative components for placement 
+1 =  ['C11']               
+2 =  ['C12']
+3 =  ['C13']
+4 =  ['C14']
+5 =  ['C15']
+6 =  ['C16']
+7 =  ['C17']
+8 =  ['C18']
+9 =  ['C19']
+10 = ['C20']
+11 = ['C21']
+12 = ['C22']
+
+
+
+
+
+
+
+
+
+
+
+
+
+

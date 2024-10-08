@@ -1,6 +1,14 @@
 {
   "board": {
+<<<<<<< HEAD
     "active_layer": 0,
+=======
+<<<<<<<< HEAD:development/arena_flat_6/teensy4p1/arena_flat_6_tn_v0p1/arena.kicad_prl
+    "active_layer": 31,
+========
+    "active_layer": 0,
+>>>>>>>> acb22c2 (cleanup):arena_06-inf/arena_06-inf_atmega328/arena_6-inf_v0p3.kicad_prl
+>>>>>>> iorodeo-main
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],

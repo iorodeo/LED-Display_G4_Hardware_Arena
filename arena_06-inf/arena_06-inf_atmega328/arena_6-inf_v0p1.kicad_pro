@@ -772,7 +772,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "arena.net",
-      "specctra_dsn": "",
+      "specctra_dsn": "arena.dsn",
       "step": "",
       "vrml": ""
     },

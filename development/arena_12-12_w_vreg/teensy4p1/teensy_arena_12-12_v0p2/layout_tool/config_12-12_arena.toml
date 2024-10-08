@@ -1,0 +1,46 @@
+[units]          
+angle = 'deg'        # Units used for angles
+length = 'mm'        # units used for lengths
+
+[panel]              # Panel parameters
+number = 12          # number of panels in  the arena
+omitted = []         # list  of omitted panels
+offset_angle = 0     # offset angle for panel position
+width = 40.5         # width of panels 
+depth = 15           # depth from front to back of panels 
+
+[pins]               # Header pin parameters
+number = 15          # number of header pins
+pitch = 2.54         # pitch (distance) between header pins
+depth = 13.1         # depth from front to header pins 
+omitted = []         # pins omitted from header
+
+[pcb]
+size_x = 228.6       # PCB size in x-dimension
+size_y = 228.6       # PCB size in y-dimension
+center_x = 177.8     # PCB center x-coordinate
+center_y = 177.8     # PCB center y-coordinate 
+line_width = 0.3     # PCB edge line width
+cutout_diam = 157.0  # Inside hole radius
+
+[pcb.panel]
+ref_prefix = 'P'     # Symbol prefix for panel headers
+ref_start = 1        # Start number for panel headers
+
+[pcb.relative]
+model = 1            # Model for relative component placement
+
+# Lists of relative components for placement 
+1  =  [ 'U6', 'C11', 'C12', 'C13',  'R3',  'R4', 'L1' ]               
+2  =  [ 'U7', 'C14', 'C15', 'C16',  'R5',  'R6', 'L2' ]               
+3  =  [ 'U8', 'C17', 'C18', 'C19',  'R7',  'R8', 'L3' ]               
+4  =  [ 'U9', 'C20', 'C21', 'C22',  'R9', 'R10', 'L4' ]               
+5  =  ['U10', 'C23', 'C24', 'C25', 'R11', 'R12', 'L5' ]               
+6  =  ['U11', 'C26', 'C27', 'C28', 'R13', 'R14', 'L6' ]               
+7  =  ['U12', 'C29', 'C30', 'C31', 'R15', 'R16', 'L7' ]               
+8  =  ['U13', 'C32', 'C33', 'C34', 'R17', 'R18', 'L8' ]               
+9  =  ['U14', 'C35', 'C36', 'C37', 'R19', 'R20', 'L9' ]               
+10 =  ['U15', 'C38', 'C39', 'C40', 'R21', 'R22', 'L10']               
+11 =  ['U16', 'C41', 'C42', 'C43', 'R23', 'R24', 'L11']               
+12 =  ['U17', 'C44', 'C45', 'C46', 'R25', 'R26', 'L12']               
+
