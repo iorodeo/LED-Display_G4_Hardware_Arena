@@ -6601,9 +6601,9 @@
 		)
 		(uuid "5169d8df-4049-4d5f-bcef-a9a0851a8069")
 	)
-	(text "SI2302-TP \nDigikey SI2302-TPMSCT-ND\nLCSC C4748714  \n"
+	(text "ME2306D\nLCSC C165220\n"
 		(exclude_from_sim no)
-		(at 63.5 121.92 0)
+		(at 66.04 117.348 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -10602,6 +10602,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""

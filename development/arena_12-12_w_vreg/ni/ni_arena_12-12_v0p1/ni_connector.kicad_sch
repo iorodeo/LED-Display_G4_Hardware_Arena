@@ -4014,7 +4014,7 @@
 		)
 		(uuid "fe33ee6b-17e7-488a-9913-e6b71d7daef9")
 	)
-	(text "68-pin DSUB for NI cable, vertical\nTE Connectivity 5174339-5\nDigikey PN A123166-ND\n\n"
+	(text "68-pin DSUB for NI cable, vertical\nTE Connectivity 2-5174339-5\nDigikey PN A121355-ND\n\n"
 		(exclude_from_sim no)
 		(at 74.93 177.038 0)
 		(effects
