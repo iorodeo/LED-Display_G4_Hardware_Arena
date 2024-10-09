@@ -28,7 +28,7 @@ The __Arena 12-12 Version 1__ (OrCAD design file at `arena_12-12/arena_12-12_v1.
 
 ![Rendering of an Arena 12-12 Version 2](assets/arena_12-12_v2_front_iso-render.png){:standalone .ifr data-img-class="pop"}
 
-The __Arena 12-12 Version 2__ (OrCAD design file at `arena_12-12/arena_12-12_v2.brd`) is similar to version 1 in [schematics](assets/arena_12-12_v1_schematic.pdf) and most of the pcb layout, but is missing the outer ring of potential connectors. Development on the 6 layer version 2 started in February 2018. If you want to repair a version 1 or version 2 board, we recommend the production files for __Arena 12-12 v2.3__ archived at `arena_12-12/production_v2/arena_12-12_v2p3.zip` as it includes incremental improvements like a more helpful silkscreen. While most of the arenas were hand-assembled and with parts that our machine shop had lying around. Version v2.3 is an attempt to fill in some of the gaps and is a step towards being able to give the assembly job to an external contractor. [Contact us]({{site.baseurl}}/Contact) about the progress if you have questions.
+The __Arena 12-12 Version 2__ (OrCAD design file at `arena_12-12/arena_12-12_v2.brd`) is similar to version 1 in [schematics](assets/arena_12-12_v1_schematic.pdf) and most of the pcb layout, but is missing the outer ring of potential connectors. Development on the 6 layer version 2 started in February 2018. If you want to repair a version 1 or version 2 board, we recommend the production files for __Arena 12-12 v2.4__ archived at `arena_12-12/production_v2/arena_12-12_v2p4.zip` as it includes incremental improvements like a more helpful silkscreen. While most of the arenas were hand-assembled and with parts that our machine shop had lying around. Version v2.4 is an attempt to fill in some of the gaps and is a step towards being able to give the assembly job to an external contractor. [Contact us]({{site.baseurl}}/Contact) about the progress if you have questions.
 
 __Arena 12-12 Version 2C__ (OrCAD design file at `arena_12-12/arena_12-12_v2C`) is a prototype to length match all signal lines and decrease electric noise by routing them on individual layers. As a result the board has 12 (hex: `0xC`, hence 2C) layers. In our hands it didn't show improvements over other version 2 boards, but if you are looking to debug timing issues this could be a helpful starting point.
 
@@ -49,7 +49,7 @@ The Arena 12-18 populates 12 out of 18 sides of a regular octadecagon with panel
 __Arena 12-18 Version 1__ and 2 are based on the same [schematic](assets/arena_12-18_bottom_schematics.pdf), differences are in routing. Also, __Arena 12-18 v2.0__ uses hidden vias, is more difficult and expensive to manufacture, and has not been used as often as boards from version 1 (and we cannot share the design files at this point). Consequently we recommend using the newest version 1 at the moment, archived at `arena_12-18/production_v1/arena_12-18_v1p1.zip`. The Arena 12-18 v1.1 is a 7 layer PCB with a footprint of 299×206mm². For a more detailed description and changelog see the `README.mdown` file in `arena_12-18/production_v1/`.
 
 ![Rendering of the 12-18 arena holder](assets/arena_12-18_holder_render.png){:standalone .ifr data-img-class="pop"}
-For some arenas, one board required physical but not electrical connection. In this case a laser cut board, for example from acrylic, is good enough. We share a file `Arena_holder.svg` that can be used to laser cut this type of board inside the arena_12-18 folder.
+For some arenas, one board required physical but not electrical connection. In this case a laser cut board, for example from acrylic, is good enough. We share a file `Arena_11-18_holder.svg` that can be used to laser cut this type of board inside the `arena_12-18` folder. See the local README.mdown file for further descriptions.
 
 ## Arena Interconnect Board {#interconnect}
 
@@ -119,6 +119,10 @@ Design files for version 0.1 of the 6-inf arenas for a ATmega328 (see [schematic
 ![6-inf arena PCB for MAX6960](assets/arena_6-inf_max6960_v0p1_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 There is also a 6-inf arenas for a MAX6960 driver (see [schematic](assets/arena_6-inf_max6960_v0p1_schematic.pdf)) available in `arena_6-inf_max6960`. This specific one only made it to version 0.1 and production files in the subfolder `arena_6-inf_max6960/production_v0`.
+
+## Development
+
+There are currently a few arenas in `development`. We describe them in more detail once we characterized them in more detail. Currently we call them G4.1: they are compatible with the previous systems, but solve some of the issues we faced with the Generation 4 arenas.
 
 ## Prototype Controller
 

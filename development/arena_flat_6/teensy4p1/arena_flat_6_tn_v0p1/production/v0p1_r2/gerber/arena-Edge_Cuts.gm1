@@ -1,11 +1,21 @@
+<<<<<<<< HEAD:arena_06-inf/arena_06-inf_raspberry-pi/production/arena_06-inf_raspberry-pi-Edge_Cuts.gm1
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.6*%
+%TF.CreationDate,2023-08-01T17:04:20-04:00*%
+%TF.ProjectId,arena_06-inf_raspberry-pi,6172656e-615f-4303-962d-696e665f7261,v0.1*%
+========
 %TF.GenerationSoftware,KiCad,Pcbnew,7.0.10-7.0.10~ubuntu22.04.1*%
 %TF.CreationDate,2024-07-14T10:31:00-07:00*%
 %TF.ProjectId,arena,6172656e-612e-46b6-9963-61645f706362,rev?*%
+>>>>>>>> iorodeo-main:development/arena_flat_6/teensy4p1/arena_flat_6_tn_v0p1/production/v0p1_r2/gerber/arena-Edge_Cuts.gm1
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Profile,NP*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+<<<<<<<< HEAD:arena_06-inf/arena_06-inf_raspberry-pi/production/arena_06-inf_raspberry-pi-Edge_Cuts.gm1
+G04 Created by KiCad (PCBNEW 7.0.6) date 2023-08-01 17:04:20*
+========
 G04 Created by KiCad (PCBNEW 7.0.10-7.0.10~ubuntu22.04.1) date 2024-07-14 10:31:00*
+>>>>>>>> iorodeo-main:development/arena_flat_6/teensy4p1/arena_flat_6_tn_v0p1/production/v0p1_r2/gerber/arena-Edge_Cuts.gm1
 %MOMM*%
 %LPD*%
 G01*
