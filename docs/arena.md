@@ -120,6 +120,10 @@ Design files for version 0.1 of the 6-inf arenas for a ATmega328 (see [schematic
 
 There is also a 6-inf arenas for a MAX6960 driver (see [schematic](assets/arena_6-inf_max6960_v0p1_schematic.pdf)) available in `arena_6-inf_max6960`. This specific one only made it to version 0.1 and production files in the subfolder `arena_6-inf_max6960/production_v0`.
 
+## Development
+
+There are currently a few arenas in `development`. We describe them in more detail once we characterized them in more detail. Currently we call them G4.1: they are compatible with the previous systems, but solve some of the issues we faced with the Generation 4 arenas.
+
 ## Prototype Controller
 
 ![Arduino based prototype controller](assets/controller_arduino_photo.jpg){:standalone .ifr .clear data-img-class="pop"}
