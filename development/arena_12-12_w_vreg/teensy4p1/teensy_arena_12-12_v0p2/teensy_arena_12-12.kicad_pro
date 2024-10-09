@@ -664,7 +664,7 @@
       "idf": "",
       "netlist": "arena.net",
       "plot": "production/v0p2r2/gerber/",
-      "pos_files": "",
+      "pos_files": "production/v0p2r2/",
       "specctra_dsn": "teensy_arena_12-12.dsn",
       "step": "",
       "svg": "",
