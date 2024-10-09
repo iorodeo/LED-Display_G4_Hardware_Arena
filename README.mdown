@@ -11,6 +11,7 @@ Before June 2020, this repository was hosted on `https://bitbucket.org/mreiser`.
 
 ## Changelog
 
+- _2024-10-09_: cleanup development of NI and teensy arenas
 - _2023-08-01_: Cleanup
 - _2023-07-14_: added flat arenas
 - _2021-11_: added more historic designs, update documentation.
