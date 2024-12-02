@@ -67,6 +67,12 @@
     "visible_layers": "00211ff_ffffffff",
     "zone_display_mode": 0
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "teensy_arena_12-12.kicad_prl",
     "version": 3
