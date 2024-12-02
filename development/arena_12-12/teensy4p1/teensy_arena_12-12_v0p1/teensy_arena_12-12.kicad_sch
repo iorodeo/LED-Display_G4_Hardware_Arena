@@ -10,23 +10,23 @@
 	(lib_symbols)
 	(bus
 		(pts
-			(xy 127.254 58.42) (xy 136.144 58.42)
+			(xy 85.09 58.42) (xy 93.98 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11599b83-9845-413e-9811-ae4cea08730c")
+		(uuid "8f9ec503-d8ed-4709-8c2a-efe7eb12c912")
 	)
 	(bus
 		(pts
-			(xy 85.471 58.42) (xy 94.107 58.42)
+			(xy 127 58.42) (xy 135.89 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a477b9ef-abf4-450a-83f5-c73ed272da54")
+		(uuid "db200f09-7795-40bf-bcef-b14b9afb9ed9")
 	)
 	(text "12-12 Teensy Arena"
 		(exclude_from_sim no)
@@ -40,8 +40,8 @@
 		(uuid "5a21ad0e-00ff-4028-aa06-98e7a7edcffd")
 	)
 	(sheet
-		(at 94.107 49.784)
-		(size 33.147 18.034)
+		(at 93.98 49.784)
+		(size 33.02 18.034)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -52,7 +52,7 @@
 		)
 		(uuid "089bb880-f417-4f64-98ac-7a8591f9a34e")
 		(property "Sheetname" "Level Shifters"
-			(at 94.107 49.0724 0)
+			(at 93.98 49.0724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61,7 +61,7 @@
 			)
 		)
 		(property "Sheetfile" "level_shifters.kicad_sch"
-			(at 94.107 68.4026 0)
+			(at 93.98 68.4026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70,7 +70,7 @@
 			)
 		)
 		(pin "PAN5V{PAN5V}" bidirectional
-			(at 127.254 58.42 0)
+			(at 127 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80,7 +80,7 @@
 			(uuid "480d7a5f-a5ec-4daa-b239-a93636939131")
 		)
 		(pin "PAN3V{PAN3V}" bidirectional
-			(at 94.107 58.42 180)
+			(at 93.98 58.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,8 +174,8 @@
 		)
 	)
 	(sheet
-		(at 60.452 49.784)
-		(size 25.019 18.034)
+		(at 59.182 49.784)
+		(size 25.908 18.034)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -186,7 +186,7 @@
 		)
 		(uuid "5b6d0be6-08d3-404a-9e9b-565c640343d3")
 		(property "Sheetname" "Teensy"
-			(at 60.452 49.0724 0)
+			(at 59.182 49.0724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -195,7 +195,7 @@
 			)
 		)
 		(property "Sheetfile" "teensy.kicad_sch"
-			(at 60.452 68.4026 0)
+			(at 59.182 68.4026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -204,7 +204,7 @@
 			)
 		)
 		(pin "PAN3V{PAN3V}" bidirectional
-			(at 85.471 58.42 0)
+			(at 85.09 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -222,8 +222,8 @@
 		)
 	)
 	(sheet
-		(at 136.144 49.784)
-		(size 30.226 18.161)
+		(at 135.89 49.784)
+		(size 30.48 18.161)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -234,7 +234,7 @@
 		)
 		(uuid "ad9c294f-d898-4a63-8d96-c5c7fb69f139")
 		(property "Sheetname" "Panel Headers"
-			(at 136.144 49.0724 0)
+			(at 135.89 49.0724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243,7 +243,7 @@
 			)
 		)
 		(property "Sheetfile" "panel_headers.kicad_sch"
-			(at 136.144 68.5296 0)
+			(at 135.89 68.5296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -252,7 +252,7 @@
 			)
 		)
 		(pin "PAN5V{PAN5V}" bidirectional
-			(at 136.144 58.42 180)
+			(at 135.89 58.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -206,17 +206,17 @@
 	)
 	(wire
 		(pts
-			(xy 41.275 32.639) (xy 41.275 35.179)
+			(xy 41.91 33.02) (xy 41.91 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "628096db-b0a3-48be-b67d-bb33b7df1d33")
+		(uuid "045749c8-0bde-46bb-a09b-7a4b676c0fd1")
 	)
 	(wire
 		(pts
-			(xy 59.69 32.639) (xy 59.69 35.179)
+			(xy 60.96 33.02) (xy 60.96 35.56)
 		)
 		(stroke
 			(width 0)
@@ -226,7 +226,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 32.639) (xy 68.58 35.179)
+			(xy 69.85 33.02) (xy 69.85 35.56)
 		)
 		(stroke
 			(width 0)
@@ -236,7 +236,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.165 32.639) (xy 50.165 35.179)
+			(xy 50.8 33.02) (xy 50.8 35.56)
 		)
 		(stroke
 			(width 0)
@@ -246,7 +246,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 35.179 0)
+		(at 69.85 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -256,7 +256,7 @@
 		(fields_autoplaced yes)
 		(uuid "27e92163-38eb-465c-839b-af91681114b0")
 		(property "Reference" "#PWR011"
-			(at 68.58 41.529 0)
+			(at 69.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -265,7 +265,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 40.259 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -273,7 +273,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 35.179 0)
+			(at 69.85 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,7 +282,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 35.179 0)
+			(at 69.85 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -291,7 +291,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 35.179 0)
+			(at 69.85 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -313,7 +313,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 50.165 30.099 0)
+		(at 50.8 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -321,7 +321,7 @@
 		(dnp no)
 		(uuid "2a097cd6-846a-437f-8cdc-fc2c0705c24d")
 		(property "Reference" "H2"
-			(at 53.34 29.464 0)
+			(at 53.975 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -330,7 +330,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 53.34 30.734 0)
+			(at 53.975 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -340,7 +340,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
-			(at 50.165 30.099 0)
+			(at 50.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -349,7 +349,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.165 30.099 0)
+			(at 50.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -358,7 +358,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.165 30.099 0)
+			(at 50.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -380,7 +380,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.165 35.179 0)
+		(at 50.8 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -390,7 +390,7 @@
 		(fields_autoplaced yes)
 		(uuid "37b45116-a58c-419b-a967-d39695826d7b")
 		(property "Reference" "#PWR09"
-			(at 50.165 41.529 0)
+			(at 50.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -399,7 +399,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.165 40.259 0)
+			(at 50.8 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,7 +407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.165 35.179 0)
+			(at 50.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,7 +416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.165 35.179 0)
+			(at 50.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -425,7 +425,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.165 35.179 0)
+			(at 50.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -447,7 +447,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.275 35.179 0)
+		(at 41.91 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -457,7 +457,7 @@
 		(fields_autoplaced yes)
 		(uuid "515cec63-38b7-482c-99a6-99652f8dc958")
 		(property "Reference" "#PWR08"
-			(at 41.275 41.529 0)
+			(at 41.91 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -466,7 +466,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.275 40.259 0)
+			(at 41.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -474,7 +474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.275 35.179 0)
+			(at 41.91 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -483,7 +483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.275 35.179 0)
+			(at 41.91 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -492,7 +492,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.275 35.179 0)
+			(at 41.91 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -514,7 +514,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 59.69 30.099 0)
+		(at 60.96 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -523,7 +523,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cb430b1-0e6a-4170-90cc-b431d28c9206")
 		(property "Reference" "H3"
-			(at 62.865 29.464 0)
+			(at 64.135 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -532,7 +532,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 62.865 30.734 0)
+			(at 64.135 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -542,7 +542,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
-			(at 59.69 30.099 0)
+			(at 60.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -551,7 +551,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 30.099 0)
+			(at 60.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -560,7 +560,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 30.099 0)
+			(at 60.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -582,7 +582,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 41.275 30.099 0)
+		(at 41.91 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -591,7 +591,7 @@
 		(fields_autoplaced yes)
 		(uuid "6371152a-6996-4c01-9b4c-95c050be178c")
 		(property "Reference" "H1"
-			(at 44.45 29.464 0)
+			(at 45.085 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -600,7 +600,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 44.45 30.734 0)
+			(at 45.085 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -610,7 +610,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
-			(at 41.275 30.099 0)
+			(at 41.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -619,7 +619,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.275 30.099 0)
+			(at 41.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -628,7 +628,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.275 30.099 0)
+			(at 41.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -650,7 +650,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 35.179 0)
+		(at 60.96 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -660,7 +660,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c66603e-7d67-420d-949e-9cbd471a7a66")
 		(property "Reference" "#PWR010"
-			(at 59.69 41.529 0)
+			(at 60.96 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -669,7 +669,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 40.259 0)
+			(at 60.96 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -677,7 +677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 35.179 0)
+			(at 60.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -686,7 +686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 35.179 0)
+			(at 60.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -695,7 +695,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 35.179 0)
+			(at 60.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,7 +717,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 68.58 30.099 0)
+		(at 69.85 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -726,7 +726,7 @@
 		(fields_autoplaced yes)
 		(uuid "f21c68d1-fde2-4933-87ff-4157f7c0dbe8")
 		(property "Reference" "H4"
-			(at 71.755 29.464 0)
+			(at 73.025 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -735,7 +735,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 71.755 30.734 0)
+			(at 73.025 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -745,7 +745,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
-			(at 68.58 30.099 0)
+			(at 69.85 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -754,7 +754,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 30.099 0)
+			(at 69.85 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -763,7 +763,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 30.099 0)
+			(at 69.85 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
