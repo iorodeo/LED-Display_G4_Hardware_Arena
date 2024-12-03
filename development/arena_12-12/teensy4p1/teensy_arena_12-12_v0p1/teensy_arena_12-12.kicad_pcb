@@ -3324,7 +3324,7 @@
 		(at 284.3475 130.9605 180)
 		(descr "SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 3.2965 0 0)
 			(layer "F.SilkS")
 			(uuid "ec045a56-46a5-4688-8a57-c785ff5935d8")
@@ -3338,6 +3338,7 @@
 		(property "Value" "MOSFET_NCHAN"
 			(at 0 2.4 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5baf0860-6470-4d81-9d17-23acd7208a97")
 			(effects
 				(font
@@ -9600,6 +9601,7 @@
 		(property "Value" "20k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c66d9a56-7b6b-438c-ae1b-f6a5879757dc")
 			(effects
 				(font
@@ -9609,7 +9611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b3bd8565-e4ed-43ff-9811-4b822a2f4121")
@@ -9621,7 +9623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "602bcebb-867c-4c22-8dfc-e55ca0c4f47b")
@@ -9633,7 +9635,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3baa9589-26b3-4da3-864b-734bf28bbcc0")

@@ -5,20 +5,20 @@
 	(uuid "05098ad0-cc54-4db2-a4ff-6a5da3adc09b")
 	(paper "User" 406.4 254)
 	(lib_symbols
-		(symbol "74xGxx:74LVC1G17"
+		(symbol "74xGxx:74LVC2G17"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 2.54 7.62 0)
+				(at -1.27 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "74LVC1G17"
-				(at 5.08 -7.62 0)
+			(property "Value" "74LVC2G17"
+				(at 2.54 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,15 +26,6 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -43,7 +34,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single Schmitt Buffer Gate, Low-Voltage CMOS"
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -52,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Single Gate Buff Schmitt LVC CMOS"
+			(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -61,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+			(property "ki_keywords" "Dual Buffer Schmitt LVC CMOS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,7 +61,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "74LVC1G17_0_1"
+			(property "ki_fp_filters" "SG-* SOT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC2G17_1_1"
 				(polyline
 					(pts
 						(xy -2.54 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
@@ -107,15 +107,13 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "74LVC1G17_1_1"
-				(pin free line
-					(at -2.54 -10.16 90)
-					(length 6.35)
-					(name "NC"
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name "~"
 						(effects
 							(font
-								(size 0.762 0.762)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -127,8 +125,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -15.24 0 0)
+				(pin output line
+					(at 12.7 0 180)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -137,7 +135,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -145,10 +143,48 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -5.08 -10.16 90)
-					(length 5.08)
-					(name "GND"
+			)
+			(symbol "74LVC2G17_2_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -181,8 +217,41 @@
 						)
 					)
 				)
+			)
+			(symbol "74LVC2G17_3_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC2G17_3_1"
 				(pin power_in line
-					(at -5.08 10.16 270)
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
 					(length 5.08)
 					(name "VCC"
 						(effects
@@ -2263,6 +2332,12 @@
 			)
 		)
 	)
+	(junction
+		(at 172.72 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d287248-1e4d-4d7e-b742-ac5401ef3669")
+	)
 	(no_connect
 		(at 130.81 106.68)
 		(uuid "04d7f9a5-58e5-4af6-ae7b-19073a5a092c")
@@ -2286,10 +2361,6 @@
 	(no_connect
 		(at 130.81 104.14)
 		(uuid "647d4225-661c-4373-a34e-2d706813250a")
-	)
-	(no_connect
-		(at 173.99 196.85)
-		(uuid "64960f14-500a-4884-af44-7b5c1409e9e5")
 	)
 	(no_connect
 		(at 74.93 106.68)
@@ -2318,10 +2389,6 @@
 	(no_connect
 		(at 99.06 119.38)
 		(uuid "98f3da44-7e6b-43e2-a7f1-d1eee3effd19")
-	)
-	(no_connect
-		(at 173.99 158.75)
-		(uuid "a4c867d1-5431-450f-adc9-e70b79ed178c")
 	)
 	(no_connect
 		(at 74.93 104.14)
@@ -2985,6 +3052,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 187.96) (xy 172.72 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242e4a61-ad20-473f-bb5d-ee142eadbdd3")
+	)
+	(wire
+		(pts
 			(xy 323.85 62.23) (xy 306.07 62.23)
 		)
 		(stroke
@@ -3072,16 +3149,6 @@
 			(type default)
 		)
 		(uuid "341fe28d-60ff-4423-b3e4-9cceb7349753")
-	)
-	(wire
-		(pts
-			(xy 113.03 181.61) (xy 113.03 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34b24687-f7c6-447e-a88c-8193f8fdb38d")
 	)
 	(wire
 		(pts
@@ -3245,7 +3312,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 186.69) (xy 158.75 186.69)
+			(xy 149.86 168.91) (xy 158.75 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3355,7 +3422,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 181.61) (xy 99.06 182.88)
+			(xy 154.94 199.39) (xy 154.94 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3475,7 +3542,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 137.16) (xy 176.53 138.43)
+			(xy 172.72 185.42) (xy 172.72 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3855,16 +3922,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 158.75) (xy 176.53 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ad93d4e-a10a-4ab3-87d3-8d44c95acf31")
-	)
-	(wire
-		(pts
 			(xy 130.81 52.07) (xy 142.24 52.07)
 		)
 		(stroke
@@ -4233,6 +4290,16 @@
 		)
 		(uuid "b71f5175-4252-4ae9-a666-02e715d7cfb1")
 	)
+	(wire
+		(pts
+			(xy 154.94 187.96) (xy 172.72 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b755776d-82b0-4bab-b632-49b7f5c12aa5")
+	)
 	(bus
 		(pts
 			(xy 326.39 52.07) (xy 326.39 54.61)
@@ -4262,16 +4329,6 @@
 			(type default)
 		)
 		(uuid "bb2b2048-f648-41fb-b633-d53b6f29d7df")
-	)
-	(wire
-		(pts
-			(xy 176.53 175.26) (xy 176.53 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcdd742c-463b-4d21-95dc-081721a94214")
 	)
 	(wire
 		(pts
@@ -4315,7 +4372,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 186.69) (xy 201.93 186.69)
+			(xy 186.69 168.91) (xy 201.93 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4795,7 +4852,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 172.72) (xy 99.06 173.99)
+			(xy 154.94 187.96) (xy 154.94 191.77)
 		)
 		(stroke
 			(width 0)
@@ -4812,16 +4869,6 @@
 			(type default)
 		)
 		(uuid "f04a0a35-8f69-4389-9ba3-56dc7a254a8f")
-	)
-	(wire
-		(pts
-			(xy 113.03 172.72) (xy 113.03 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f151c718-e512-4dc7-a85c-5d56beee52de")
 	)
 	(wire
 		(pts
@@ -4895,7 +4942,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 196.85) (xy 176.53 198.12)
+			(xy 172.72 210.82) (xy 172.72 212.09)
 		)
 		(stroke
 			(width 0)
@@ -4994,6 +5041,16 @@
 			(justify left bottom)
 		)
 		(uuid "be98c57f-ce4f-42f5-b71d-8deec68ab3dd")
+	)
+	(text "SN74LVC2G17DBVR\nC10429"
+		(exclude_from_sim no)
+		(at 190.246 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db96e5ed-c075-4357-8ab8-0a6068ac3037")
 	)
 	(label "PAN3V.CS_28"
 		(at 274.32 196.85 180)
@@ -5282,7 +5339,7 @@
 		(uuid "2bff5ac6-704f-4274-a29d-203591aaa822")
 	)
 	(label "TNY_MISO_1"
-		(at 149.86 186.69 0)
+		(at 149.86 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6470,7 +6527,7 @@
 		(uuid "cfae9632-4120-41f4-92d9-c4bae5f3a43a")
 	)
 	(label "PAN3V.MISO_1"
-		(at 201.93 186.69 180)
+		(at 201.93 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6858,7 +6915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 147.828 90)
 			(effects
 				(font
@@ -6901,71 +6958,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 176.53 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09297cc8-7513-4f92-a65a-e6545c7e1f69")
-		(property "Reference" "#PWR0108"
-			(at 176.53 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 176.53 171.831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b833db39-7036-4139-9f3c-c4b208d2dfb8")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/5b6d0be6-08d3-404a-9e9b-565c640343d3"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 255.27 181.61 90)
 		(unit 1)
@@ -6990,7 +6982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 183.388 90)
 			(effects
 				(font
@@ -7057,7 +7049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 112.268 90)
 			(effects
 				(font
@@ -7200,7 +7192,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 42.418 90)
 			(effects
 				(font
@@ -7267,7 +7259,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 61.468 90)
 			(effects
 				(font
@@ -7304,72 +7296,6 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/5b6d0be6-08d3-404a-9e9b-565c640343d3"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 176.53 160.02 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24bfce23-e306-432a-9206-7022b70fe773")
-		(property "Reference" "#PWR076"
-			(at 176.53 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 164.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bbd530e-60cf-4705-af11-1f265024ccc2")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/5b6d0be6-08d3-404a-9e9b-565c640343d3"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -7466,7 +7392,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 218.948 90)
 			(effects
 				(font
@@ -7509,84 +7435,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74LVC1G17")
-		(at 171.45 148.59 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37ec3853-88e6-4787-b12b-d0562cd9c6c7")
-		(property "Reference" "U2"
-			(at 185.42 142.2714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC1G17"
-			(at 185.42 144.8114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
-			(at 171.45 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Schmitt Buffer Gate, Low-Voltage CMOS"
-			(at 171.45 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "91aebf11-bfff-4120-bfd9-2bf172d53fe5")
-		)
-		(pin "3"
-			(uuid "96256420-e2cc-47e3-a01e-9ad4f673741e")
-		)
-		(pin "2"
-			(uuid "f24bdbdf-2f76-41d5-8359-1f060efc5843")
-		)
-		(pin "4"
-			(uuid "169f98ed-75e4-4abc-aec8-26f26f246ca4")
-		)
-		(pin "1"
-			(uuid "5f559475-8654-4f38-98f2-13d3a5c035df")
-		)
-		(instances
-			(project ""
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/5b6d0be6-08d3-404a-9e9b-565c640343d3"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 255.27 120.65 90)
 		(unit 1)
@@ -7611,7 +7459,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 122.428 90)
 			(effects
 				(font
@@ -7678,7 +7526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 28.448 90)
 			(effects
 				(font
@@ -7721,35 +7569,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 113.03 177.8 0)
-		(unit 1)
+		(lib_id "74xGxx:74LVC2G17")
+		(at 171.45 168.91 0)
+		(mirror y)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "444e68a2-b36d-45cf-8cb1-ff01a7339f10")
-		(property "Reference" "C2"
-			(at 116.84 176.5299 0)
+		(uuid "3db3f97f-d71a-46d8-aaa1-b6455a793b24")
+		(property "Reference" "U2"
+			(at 172.72 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 116.84 179.0699 0)
+		(property "Value" "74LVC2G17"
+			(at 172.72 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 113.9952 181.61 0)
+			(at 171.45 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7757,8 +7603,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 113.03 177.8 0)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 171.45 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7766,8 +7612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 113.03 177.8 0)
+		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 171.45 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7775,17 +7621,29 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "2132aca3-93b4-4840-94e1-b7fb293dad6f")
+		(pin "3"
+			(uuid "9591d13c-310f-44cd-98bd-4586b9130347")
+		)
+		(pin "6"
+			(uuid "9e163688-1844-490b-a8c0-0028286fac87")
 		)
 		(pin "1"
-			(uuid "c8ca6797-010a-4959-bbdb-652bace2f523")
+			(uuid "7eb4f285-d975-459b-815d-85a0aef43c4e")
+		)
+		(pin "4"
+			(uuid "660060bb-3df0-416f-8ec9-283ce9b848c3")
+		)
+		(pin "2"
+			(uuid "600eeacb-ee37-46e9-bd65-f4256ae9bc12")
+		)
+		(pin "5"
+			(uuid "db0b991e-672f-4667-969b-b1c217de00dc")
 		)
 		(instances
 			(project ""
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/5b6d0be6-08d3-404a-9e9b-565c640343d3"
-					(reference "C2")
-					(unit 1)
+					(reference "U2")
+					(unit 2)
 				)
 			)
 		)
@@ -8078,7 +7936,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 132.588 90)
 			(effects
 				(font
@@ -8145,7 +8003,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 168.148 90)
 			(effects
 				(font
@@ -8212,7 +8070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 33.528 90)
 			(effects
 				(font
@@ -8279,7 +8137,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 157.988 90)
 			(effects
 				(font
@@ -8323,7 +8181,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 99.06 177.8 0)
+		(at 154.94 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8332,7 +8190,7 @@
 		(fields_autoplaced yes)
 		(uuid "759bc06f-7a5d-4991-9a9c-4a3dac365281")
 		(property "Reference" "C1"
-			(at 102.87 176.5299 0)
+			(at 158.75 194.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,7 +8199,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 102.87 179.0699 0)
+			(at 158.75 196.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8349,8 +8207,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.0252 181.61 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 155.9052 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +8217,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 177.8 0)
+			(at 154.94 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +8226,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 99.06 177.8 0)
+			(at 154.94 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8416,7 +8274,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 76.708 90)
 			(effects
 				(font
@@ -8525,84 +8383,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74LVC1G17")
-		(at 171.45 186.69 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8314fd49-2ffe-4b32-b1f8-bae7db57e915")
-		(property "Reference" "U3"
-			(at 185.42 180.3714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC1G17"
-			(at 185.42 182.9114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
-			(at 171.45 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Schmitt Buffer Gate, Low-Voltage CMOS"
-			(at 171.45 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "5417a95d-a0e9-4d5f-bd8a-508d6e79532d")
-		)
-		(pin "3"
-			(uuid "76564ee7-e842-45a0-801d-b0c3c6d2d7b7")
-		)
-		(pin "2"
-			(uuid "f34f4dcd-bdd7-4fa2-8d65-9f24848cef4a")
-		)
-		(pin "4"
-			(uuid "7c497052-3e99-477a-a119-0dc1c9a7d57e")
-		)
-		(pin "1"
-			(uuid "ee0af2c0-95c7-4754-9156-6704385bf260")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/5b6d0be6-08d3-404a-9e9b-565c640343d3"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 255.27 171.45 90)
 		(unit 1)
@@ -8627,7 +8407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 173.228 90)
 			(effects
 				(font
@@ -8670,71 +8450,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 99.06 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9729b807-04aa-4229-8a6e-5110882b3341")
-		(property "Reference" "#PWR0104"
-			(at 99.06 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 99.06 169.291 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "216ad8b8-b82c-4bbd-b4b4-386ef7cfc62b")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/5b6d0be6-08d3-404a-9e9b-565c640343d3"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 255.27 90.17 90)
 		(unit 1)
@@ -8759,7 +8474,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 91.948 90)
 			(effects
 				(font
@@ -8826,7 +8541,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 142.748 90)
 			(effects
 				(font
@@ -8870,7 +8585,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 182.88 0)
+		(at 154.94 200.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8879,7 +8594,7 @@
 		(dnp no)
 		(uuid "a162f2bf-8a67-45e6-acbd-ca9bdfd22ad7")
 		(property "Reference" "#PWR0106"
-			(at 99.06 189.23 0)
+			(at 154.94 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,7 +8603,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 186.944 0)
+			(at 154.94 204.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,7 +8611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 182.88 0)
+			(at 154.94 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8905,7 +8620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 182.88 0)
+			(at 154.94 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,7 +8629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 182.88 0)
+			(at 154.94 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8959,7 +8674,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 198.628 90)
 			(effects
 				(font
@@ -9026,7 +8741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 188.468 90)
 			(effects
 				(font
@@ -9236,7 +8951,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 81.788 90)
 			(effects
 				(font
@@ -9435,7 +9150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 47.498 90)
 			(effects
 				(font
@@ -9502,7 +9217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 163.068 90)
 			(effects
 				(font
@@ -9569,7 +9284,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 213.868 90)
 			(effects
 				(font
@@ -9636,7 +9351,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 71.628 90)
 			(effects
 				(font
@@ -9679,33 +9394,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 113.03 172.72 0)
-		(unit 1)
+		(lib_id "74xGxx:74LVC2G17")
+		(at 172.72 200.66 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d8390bbb-876a-4628-ac9c-c429ff4e1232")
-		(property "Reference" "#PWR0105"
-			(at 113.03 176.53 0)
+		(fields_autoplaced yes)
+		(uuid "d16c4ba1-a140-4fae-91bc-81ce1fe2c466")
+		(property "Reference" "U2"
+			(at 179.07 199.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 113.03 169.291 0)
+		(property "Value" "74LVC2G17"
+			(at 179.07 201.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 172.72 0)
+			(at 172.72 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9713,8 +9430,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 113.03 172.72 0)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 172.72 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9722,23 +9439,38 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 113.03 172.72 0)
+		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 172.72 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "9591d13c-310f-44cd-98bd-4586b9130347")
+		)
+		(pin "6"
+			(uuid "9e163688-1844-490b-a8c0-0028286fac87")
 		)
 		(pin "1"
-			(uuid "6ae486cd-68e4-40e6-9af7-6a3871d765aa")
+			(uuid "7eb4f285-d975-459b-815d-85a0aef43c4e")
+		)
+		(pin "4"
+			(uuid "660060bb-3df0-416f-8ec9-283ce9b848c3")
+		)
+		(pin "2"
+			(uuid "600eeacb-ee37-46e9-bd65-f4256ae9bc12")
+		)
+		(pin "5"
+			(uuid "db0b991e-672f-4667-969b-b1c217de00dc")
 		)
 		(instances
-			(project "teensy_arena_12-12"
+			(project ""
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/5b6d0be6-08d3-404a-9e9b-565c640343d3"
-					(reference "#PWR0105")
-					(unit 1)
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
@@ -9834,7 +9566,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 193.548 90)
 			(effects
 				(font
@@ -9901,7 +9633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 107.188 90)
 			(effects
 				(font
@@ -9968,7 +9700,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 178.308 90)
 			(effects
 				(font
@@ -10035,7 +9767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 56.388 90)
 			(effects
 				(font
@@ -10102,7 +9834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 203.708 90)
 			(effects
 				(font
@@ -10169,7 +9901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 127.508 90)
 			(effects
 				(font
@@ -10212,8 +9944,88 @@
 		)
 	)
 	(symbol
+		(lib_id "74xGxx:74LVC2G17")
+		(at 171.45 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eadba350-f0bb-48d7-aa21-daf9505fe6b7")
+		(property "Reference" "U2"
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC2G17"
+			(at 172.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 171.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 171.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9591d13c-310f-44cd-98bd-4586b9130347")
+		)
+		(pin "6"
+			(uuid "9e163688-1844-490b-a8c0-0028286fac87")
+		)
+		(pin "1"
+			(uuid "7eb4f285-d975-459b-815d-85a0aef43c4e")
+		)
+		(pin "4"
+			(uuid "660060bb-3df0-416f-8ec9-283ce9b848c3")
+		)
+		(pin "2"
+			(uuid "600eeacb-ee37-46e9-bd65-f4256ae9bc12")
+		)
+		(pin "5"
+			(uuid "db0b991e-672f-4667-969b-b1c217de00dc")
+		)
+		(instances
+			(project ""
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/5b6d0be6-08d3-404a-9e9b-565c640343d3"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 176.53 198.12 0)
+		(at 172.72 212.09 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10222,7 +10034,7 @@
 		(dnp no)
 		(uuid "eb0891c7-0ca2-4adb-888e-e1cd4c904aeb")
 		(property "Reference" "#PWR0109"
-			(at 176.53 204.47 0)
+			(at 172.72 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10231,7 +10043,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 202.184 0)
+			(at 172.72 216.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10239,7 +10051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 198.12 0)
+			(at 172.72 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10248,7 +10060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 198.12 0)
+			(at 172.72 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10257,7 +10069,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 198.12 0)
+			(at 172.72 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10302,7 +10114,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 117.348 90)
 			(effects
 				(font
@@ -10369,7 +10181,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 97.028 90)
 			(effects
 				(font
@@ -10412,74 +10224,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 113.03 182.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2812a7d-4e0b-433a-9992-44233eaced46")
-		(property "Reference" "#PWR0107"
-			(at 113.03 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 186.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "317c49ef-1417-42a0-b180-a5c1db91da79")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/5b6d0be6-08d3-404a-9e9b-565c640343d3"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
-		(at 176.53 137.16 0)
+		(at 172.72 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10487,7 +10233,7 @@
 		(dnp no)
 		(uuid "f36e1457-1cef-4ed0-ae0f-f66cd61b709c")
 		(property "Reference" "#PWR0103"
-			(at 176.53 140.97 0)
+			(at 172.72 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10496,7 +10242,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 176.53 133.731 0)
+			(at 172.72 181.991 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10504,7 +10250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 137.16 0)
+			(at 172.72 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10513,7 +10259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 137.16 0)
+			(at 172.72 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10522,7 +10268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 137.16 0)
+			(at 172.72 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10567,7 +10313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 102.108 90)
 			(effects
 				(font
@@ -10700,7 +10446,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 86.868 90)
 			(effects
 				(font
@@ -10767,7 +10513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 66.548 90)
 			(effects
 				(font
@@ -10834,7 +10580,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 137.668 90)
 			(effects
 				(font
@@ -10968,7 +10714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 152.908 90)
 			(effects
 				(font
