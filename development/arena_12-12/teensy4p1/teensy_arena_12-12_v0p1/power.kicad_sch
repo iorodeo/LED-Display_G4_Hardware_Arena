@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "306e5b8e-03e2-495a-8d9b-de2d10577a54")
-	(paper "A4")
+	(paper "USLetter")
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack"
 			(pin_names
@@ -662,20 +662,20 @@
 		)
 	)
 	(junction
-		(at 147.32 41.91)
+		(at 90.17 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d67b3889-88e1-44f1-837f-8f6e4f369c18")
 	)
 	(junction
-		(at 116.84 39.37)
+		(at 59.69 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbeea7bc-1a6f-4666-bdc7-aa631ba41ee6")
 	)
 	(wire
 		(pts
-			(xy 123.19 39.37) (xy 116.84 39.37)
+			(xy 66.04 45.72) (xy 59.69 45.72)
 		)
 		(stroke
 			(width 0)
@@ -685,7 +685,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 39.37) (xy 231.14 44.45)
+			(xy 173.99 45.72) (xy 173.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -695,7 +695,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 78.74) (xy 149.86 78.74)
+			(xy 96.52 85.09) (xy 92.71 85.09)
 		)
 		(stroke
 			(width 0)
@@ -705,7 +705,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 39.37) (xy 254 44.45)
+			(xy 196.85 45.72) (xy 196.85 50.8)
 		)
 		(stroke
 			(width 0)
@@ -715,7 +715,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 39.37) (xy 116.84 73.66)
+			(xy 59.69 45.72) (xy 59.69 80.01)
 		)
 		(stroke
 			(width 0)
@@ -725,7 +725,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 39.37) (xy 240.03 44.45)
+			(xy 182.88 45.72) (xy 182.88 50.8)
 		)
 		(stroke
 			(width 0)
@@ -735,7 +735,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 44.45) (xy 231.14 44.45)
+			(xy 182.88 50.8) (xy 173.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -745,7 +745,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 41.91) (xy 147.32 45.72)
+			(xy 90.17 48.26) (xy 90.17 52.07)
 		)
 		(stroke
 			(width 0)
@@ -755,7 +755,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 41.91) (xy 147.32 41.91)
+			(xy 76.2 48.26) (xy 90.17 48.26)
 		)
 		(stroke
 			(width 0)
@@ -765,7 +765,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 36.83) (xy 153.67 36.83)
+			(xy 76.2 43.18) (xy 96.52 43.18)
 		)
 		(stroke
 			(width 0)
@@ -775,7 +775,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 31.75) (xy 116.84 39.37)
+			(xy 59.69 38.1) (xy 59.69 45.72)
 		)
 		(stroke
 			(width 0)
@@ -785,7 +785,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 73.66) (xy 153.67 73.66)
+			(xy 59.69 80.01) (xy 96.52 80.01)
 		)
 		(stroke
 			(width 0)
@@ -795,7 +795,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 41.91) (xy 153.67 41.91)
+			(xy 90.17 48.26) (xy 96.52 48.26)
 		)
 		(stroke
 			(width 0)
@@ -805,7 +805,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 78.74) (xy 149.86 81.28)
+			(xy 92.71 85.09) (xy 92.71 87.63)
 		)
 		(stroke
 			(width 0)
@@ -815,7 +815,7 @@
 	)
 	(text "Connection PCB top"
 		(exclude_from_sim no)
-		(at 162.814 68.834 0)
+		(at 105.664 75.184 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -825,7 +825,7 @@
 	)
 	(text "5V"
 		(exclude_from_sim no)
-		(at 156.21 47.244 0)
+		(at 99.06 53.594 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -836,7 +836,7 @@
 	)
 	(text "External power supply"
 		(exclude_from_sim no)
-		(at 161.798 32.512 0)
+		(at 104.648 38.862 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -858,7 +858,7 @@
 		(uuid "eac47849-a989-4adb-8505-bd6591ae6299")
 	)
 	(label "SW_5V"
-		(at 142.24 36.83 0)
+		(at 85.09 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -870,7 +870,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 231.14 39.37 0)
+		(at 173.99 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -878,7 +878,7 @@
 		(dnp no)
 		(uuid "2eca856b-441d-411f-9204-c6c6b85e6e2b")
 		(property "Reference" "#PWR074"
-			(at 231.14 43.18 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,7 +887,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 231.14 35.56 0)
+			(at 173.99 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -895,7 +895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 39.37 0)
+			(at 173.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,7 +904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 39.37 0)
+			(at 173.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,7 +913,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 39.37 0)
+			(at 173.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,7 +935,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 116.84 31.75 0)
+		(at 59.69 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -943,7 +943,7 @@
 		(dnp no)
 		(uuid "37d58222-974c-4a67-ac0d-4a250e01cb49")
 		(property "Reference" "#PWR04"
-			(at 116.84 35.56 0)
+			(at 59.69 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -952,7 +952,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 116.84 27.94 0)
+			(at 59.69 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -960,7 +960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 31.75 0)
+			(at 59.69 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -969,7 +969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 31.75 0)
+			(at 59.69 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -978,7 +978,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 31.75 0)
+			(at 59.69 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +1000,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack")
-		(at 161.29 39.37 0)
+		(at 104.14 45.72 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1010,7 +1010,7 @@
 		(fields_autoplaced yes)
 		(uuid "58f6a81d-05a0-4ec6-9a8a-4093529feb61")
 		(property "Reference" "J1"
-			(at 167.64 38.735 0)
+			(at 110.49 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +1019,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack"
-			(at 167.64 41.275 0)
+			(at 110.49 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,7 +1028,7 @@
 			)
 		)
 		(property "Footprint" "arena_custom:DCJACK_2PIN_HIGHCURRENT"
-			(at 160.02 40.386 0)
+			(at 102.87 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,7 +1037,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 40.386 0)
+			(at 102.87 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,7 +1046,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 39.37 0)
+			(at 104.14 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,7 +1071,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 128.27 39.37 0)
+		(at 71.12 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1080,7 +1080,7 @@
 		(fields_autoplaced yes)
 		(uuid "63d339e0-1fb6-4e62-a297-0e405040b4ec")
 		(property "Reference" "SW1"
-			(at 128.27 33.02 0)
+			(at 71.12 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1088,7 +1088,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 128.27 35.56 0)
+			(at 71.12 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1096,7 +1096,7 @@
 			)
 		)
 		(property "Footprint" "arena_custom:slide_switch"
-			(at 128.27 39.37 0)
+			(at 71.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,7 +1105,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 39.37 0)
+			(at 71.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1114,7 +1114,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 39.37 0)
+			(at 71.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1142,7 +1142,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 45.72 0)
+		(at 90.17 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1151,7 +1151,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9393755-0590-4c92-a6f9-23e3277ec870")
 		(property "Reference" "#PWR077"
-			(at 147.32 52.07 0)
+			(at 90.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1160,7 +1160,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 51.181 0)
+			(at 90.17 57.531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1168,7 +1168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 45.72 0)
+			(at 90.17 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,7 +1177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 45.72 0)
+			(at 90.17 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +1186,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 45.72 0)
+			(at 90.17 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1208,7 +1208,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 254 39.37 0)
+		(at 196.85 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1217,7 +1217,7 @@
 		(fields_autoplaced yes)
 		(uuid "b59538ec-2d63-464a-85fe-47e70bdfec91")
 		(property "Reference" "#FLG03"
-			(at 254 37.465 0)
+			(at 196.85 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1226,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 254 35.56 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,7 +1234,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 39.37 0)
+			(at 196.85 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +1243,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 39.37 0)
+			(at 196.85 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1252,7 +1252,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 39.37 0)
+			(at 196.85 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1274,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 240.03 39.37 0)
+		(at 182.88 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1282,7 +1282,7 @@
 		(dnp no)
 		(uuid "c55ddcd3-fa1a-4062-9611-8e6df5aedc18")
 		(property "Reference" "#FLG01"
-			(at 240.03 37.465 0)
+			(at 182.88 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1291,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 240.03 35.56 0)
+			(at 182.88 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,7 +1299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 39.37 0)
+			(at 182.88 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,7 +1308,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 39.37 0)
+			(at 182.88 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1317,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 39.37 0)
+			(at 182.88 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,7 +1339,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 81.28 0)
+		(at 92.71 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1348,7 +1348,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc469385-c75b-453e-b739-c4d80c4cc1cd")
 		(property "Reference" "#PWR0561"
-			(at 149.86 87.63 0)
+			(at 92.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,7 +1357,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 86.741 0)
+			(at 92.71 93.091 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,7 +1365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 81.28 0)
+			(at 92.71 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 81.28 0)
+			(at 92.71 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,7 +1383,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 81.28 0)
+			(at 92.71 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +1405,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 44.45 0)
+		(at 196.85 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1414,7 +1414,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4027594-a911-46b6-820d-77d6304a3db9")
 		(property "Reference" "#PWR013"
-			(at 254 50.8 0)
+			(at 196.85 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1423,7 +1423,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 49.53 0)
+			(at 196.85 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,7 +1431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 44.45 0)
+			(at 196.85 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +1440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 44.45 0)
+			(at 196.85 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,7 +1449,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 44.45 0)
+			(at 196.85 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,7 +1471,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack")
-		(at 161.29 76.2 0)
+		(at 104.14 82.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1481,7 +1481,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7e75f20-4077-4fff-8e5d-4a8e51f79934")
 		(property "Reference" "J4"
-			(at 167.64 75.565 0)
+			(at 110.49 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,7 +1490,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack"
-			(at 167.64 78.105 0)
+			(at 110.49 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,7 +1499,7 @@
 			)
 		)
 		(property "Footprint" "arena_custom:DCJACK_2PIN_HIGHCURRENT"
-			(at 160.02 77.216 0)
+			(at 102.87 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +1508,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 77.216 0)
+			(at 102.87 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +1517,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 76.2 0)
+			(at 104.14 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
