@@ -7594,7 +7594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 171.45 168.91 0)
 			(effects
 				(font
@@ -9421,7 +9421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 172.72 200.66 0)
 			(effects
 				(font
@@ -9449,22 +9449,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "9591d13c-310f-44cd-98bd-4586b9130347")
+			(uuid "9591d13c-310f-44cd-98bd-4586b9130348")
 		)
 		(pin "6"
-			(uuid "9e163688-1844-490b-a8c0-0028286fac87")
+			(uuid "9e163688-1844-490b-a8c0-0028286fac88")
 		)
 		(pin "1"
-			(uuid "7eb4f285-d975-459b-815d-85a0aef43c4e")
+			(uuid "7eb4f285-d975-459b-815d-85a0aef43c4f")
 		)
 		(pin "4"
-			(uuid "660060bb-3df0-416f-8ec9-283ce9b848c3")
+			(uuid "660060bb-3df0-416f-8ec9-283ce9b848c4")
 		)
 		(pin "2"
-			(uuid "600eeacb-ee37-46e9-bd65-f4256ae9bc12")
+			(uuid "600eeacb-ee37-46e9-bd65-f4256ae9bc13")
 		)
 		(pin "5"
-			(uuid "db0b991e-672f-4667-969b-b1c217de00dc")
+			(uuid "db0b991e-672f-4667-969b-b1c217de00dd")
 		)
 		(instances
 			(project ""
@@ -9969,7 +9969,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 171.45 148.59 0)
 			(effects
 				(font
@@ -9997,22 +9997,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "9591d13c-310f-44cd-98bd-4586b9130347")
+			(uuid "9591d13c-310f-44cd-98bd-4586b9130349")
 		)
 		(pin "6"
-			(uuid "9e163688-1844-490b-a8c0-0028286fac87")
+			(uuid "9e163688-1844-490b-a8c0-0028286fac89")
 		)
 		(pin "1"
-			(uuid "7eb4f285-d975-459b-815d-85a0aef43c4e")
+			(uuid "7eb4f285-d975-459b-815d-85a0aef43c50")
 		)
 		(pin "4"
-			(uuid "660060bb-3df0-416f-8ec9-283ce9b848c3")
+			(uuid "660060bb-3df0-416f-8ec9-283ce9b848c5")
 		)
 		(pin "2"
-			(uuid "600eeacb-ee37-46e9-bd65-f4256ae9bc12")
+			(uuid "600eeacb-ee37-46e9-bd65-f4256ae9bc14")
 		)
 		(pin "5"
-			(uuid "db0b991e-672f-4667-969b-b1c217de00dc")
+			(uuid "db0b991e-672f-4667-969b-b1c217de00de")
 		)
 		(instances
 			(project ""
