@@ -1,0 +1,141 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a2511654-3a17-43f1-8b9e-c45e375533dc")
+	(paper "User" 279.4 203.2)
+	(title_block
+		(date "11 jun 2015")
+	)
+	(lib_symbols)
+	(text "12-12 Arena Top"
+		(exclude_from_sim no)
+		(at 113.03 33.02 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a21ad0e-00ff-4028-aa06-98e7a7edcffd")
+	)
+	(sheet
+		(at 106.68 48.26)
+		(size 27.432 18.161)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17861c68-32c3-4000-8a50-4f303c28fa47")
+		(property "Sheetname" "Power"
+			(at 106.68 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 106.68 67.0056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "arena_top_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 141.986 48.768)
+		(size 30.226 18.034)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24a22302-295f-4a79-8162-dc1243f756aa")
+		(property "Sheetname" "Ground Holes"
+			(at 141.986 48.0564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "holes.kicad_sch"
+			(at 141.986 67.3866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "arena_top_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 48.26)
+		(size 30.48 18.161)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad9c294f-d898-4a63-8d96-c5c7fb69f139")
+		(property "Sheetname" "Panel Headers"
+			(at 67.31 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "panel_headers.kicad_sch"
+			(at 67.31 67.0056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "arena_top_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
