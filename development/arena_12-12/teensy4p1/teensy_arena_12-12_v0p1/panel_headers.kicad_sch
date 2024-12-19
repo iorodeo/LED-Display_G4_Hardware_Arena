@@ -1194,126 +1194,6 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_names
@@ -18062,72 +17942,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 198.12 480.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0715fd18-e39f-4394-9b6c-41cc25ea6b60")
-		(property "Reference" "#PWR0272"
-			(at 198.12 483.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 198.12 476.631 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a590faa-5310-43b2-a01e-7e686300fa63")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0272")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 120.65 401.32 0)
 		(mirror y)
@@ -18254,6 +18068,71 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "#PWR0277")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 198.12 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07c7ebf2-3105-43c5-97b9-0d6af07c65ac")
+		(property "Reference" "#PWR0183"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 198.12 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a67f3e3-2106-4f85-8285-e93f9ae44027")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -18553,17 +18432,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 129.54 93.98 0)
+		(lib_id "power:+5V")
+		(at 579.12 576.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0abb0e42-d681-45b0-b94e-a29f3809ddaf")
-		(property "Reference" "#PWR0183"
-			(at 129.54 97.79 0)
+		(uuid "0a66b04d-65a5-4dcc-b3de-d4ebda94514d")
+		(property "Reference" "#PWR0359"
+			(at 579.12 580.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18571,8 +18449,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 129.54 90.551 0)
+		(property "Value" "+5V"
+			(at 579.12 573.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18580,7 +18458,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 93.98 0)
+			(at 579.12 576.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18589,7 +18467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 93.98 0)
+			(at 579.12 576.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18598,7 +18476,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 93.98 0)
+			(at 579.12 576.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18607,12 +18485,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "10aab1af-e1af-43a8-88be-277a6b72ee88")
+			(uuid "7425cff4-8efd-4c7d-b485-0451f65f39e9")
 		)
 		(instances
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0183")
+					(reference "#PWR0359")
 					(unit 1)
 				)
 			)
@@ -19009,72 +18887,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 579.12 480.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bcc19b9-474f-468e-8497-a5c6f00d5387")
-		(property "Reference" "#PWR0344"
-			(at 579.12 483.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 579.12 476.631 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 579.12 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 579.12 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 579.12 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f06d368c-ec08-43f9-87ff-40f6a76b496f")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0344")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xGxx:74LVC2G17")
 		(at 129.54 109.22 0)
 		(unit 3)
@@ -19300,138 +19112,6 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "R152")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 647.7 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e3a6c8c-d8d9-45e7-b5ec-1f9838366301")
-		(property "Reference" "#PWR0299"
-			(at 647.7 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 647.7 90.551 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 647.7 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 647.7 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 647.7 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ddc885e-7161-4664-92c1-1a3f50f8f619")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0299")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 647.7 287.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ea709e0-51fd-42a6-865c-fefdd1515e8b")
-		(property "Reference" "#PWR0323"
-			(at 647.7 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 647.7 283.591 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 647.7 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 647.7 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 647.7 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0619eec0-d527-47e0-8515-35bc2ee2410c")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
@@ -20433,72 +20113,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 510.54 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13b430f6-b805-4878-a763-a9028304f62f")
-		(property "Reference" "#PWR0293"
-			(at 510.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 510.54 90.551 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 510.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 510.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 510.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbb6665d-3336-46f3-b03b-e0d54d34a106")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0293")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 525.78 377.19 0)
 		(unit 1)
@@ -20770,6 +20384,71 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "C104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 510.54 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "155dc566-fe23-4d80-ab10-75ae2e6a77dc")
+		(property "Reference" "#PWR0293"
+			(at 510.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 510.54 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 510.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 510.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 510.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b851df92-97ae-4911-8897-eb6fd67894b1")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0293")
 					(unit 1)
 				)
 			)
@@ -21270,6 +20949,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 60.96 480.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "190297bd-3814-465c-b8ee-4e2aa37bb8e4")
+		(property "Reference" "#PWR0263"
+			(at 60.96 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 60.96 476.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "963f00ef-9299-43ad-9117-0f44044919f1")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0263")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74LVC2G17")
 		(at 525.78 299.72 90)
 		(unit 2)
@@ -21346,72 +21090,6 @@
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "U69")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 60.96 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "193c0ec6-4280-4188-9ed7-879da9459239")
-		(property "Reference" "#PWR0179"
-			(at 60.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 60.96 90.551 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf25a82d-f2e9-4939-bb28-f97b4af0f216")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0179")
-					(unit 1)
 				)
 			)
 		)
@@ -22246,6 +21924,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 129.54 383.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2005231b-8f4b-4c6f-b0fe-6fb15e47b902")
+		(property "Reference" "#PWR0254"
+			(at 129.54 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 129.54 379.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80038bd3-9380-480c-bcee-a5d34b233a1a")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0254")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74LVC2G17")
 		(at 198.12 495.3 0)
 		(unit 3)
@@ -22983,72 +22726,6 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "R155")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 266.7 383.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "253e146a-3df5-40f3-9d6a-ccf6ba225517")
-		(property "Reference" "#PWR0263"
-			(at 266.7 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 266.7 380.111 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 266.7 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ea4bc51-1260-4b57-8ec3-4ada36644342")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0263")
 					(unit 1)
 				)
 			)
@@ -24031,72 +23708,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 198.12 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c19b79f-c011-43af-882e-bce908bc428d")
-		(property "Reference" "#PWR0186"
-			(at 198.12 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 198.12 90.551 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d8ddd41-526e-4a1d-af44-f09888ab0167")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0186")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 120.65 104.14 0)
 		(mirror y)
@@ -24856,6 +24467,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 510.54 576.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33264ea4-dfb3-45f7-a877-283f91b98193")
+		(property "Reference" "#PWR0356"
+			(at 510.54 580.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 510.54 573.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 510.54 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 510.54 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 510.54 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a493b31-63a0-4cd4-801d-4a504c0c734c")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0356")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 638.81 594.36 0)
 		(mirror y)
@@ -25154,72 +24830,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 579.12 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34d3399e-0f91-4b10-b551-abb88353e89d")
-		(property "Reference" "#PWR0296"
-			(at 579.12 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 579.12 90.551 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 579.12 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 579.12 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 579.12 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c319cb5a-4694-4c54-9175-68dbcff1fa0f")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0296")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 189.23 203.2 0)
 		(mirror y)
@@ -25284,6 +24894,71 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 198.12 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "353b1380-5f29-46f4-af91-be1156b51b8e")
+		(property "Reference" "#PWR0198"
+			(at 198.12 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 198.12 186.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1c7abb1-7d4c-422f-9c3d-3e9c0db64fdc")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -26086,72 +25761,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 579.12 383.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38a5a762-44a2-420c-a384-7793cf6c171f")
-		(property "Reference" "#PWR0332"
-			(at 579.12 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 579.12 380.111 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 579.12 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 579.12 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 579.12 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbca8ea9-40f3-45f5-85e1-90d0ffd5474d")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0332")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xGxx:74LVC2G17")
 		(at 680.72 299.72 90)
 		(unit 1)
@@ -26428,6 +26037,71 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "R187")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 510.54 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a961e5f-fcb7-45d5-8822-25d3b6d3131b")
+		(property "Reference" "#PWR0305"
+			(at 510.54 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 510.54 186.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 510.54 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 510.54 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 510.54 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b89a4353-9342-42c1-b593-1b139b534295")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -27063,72 +26737,6 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "C71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 441.96 383.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40d02a21-fca4-4a20-8e79-d5992259947c")
-		(property "Reference" "#PWR0326"
-			(at 441.96 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 441.96 380.111 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 441.96 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 441.96 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 441.96 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37697f5e-f341-4906-9a81-8f895bba0342")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0326")
 					(unit 1)
 				)
 			)
@@ -28339,6 +27947,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 129.54 287.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48c02668-46a8-4306-91d5-1528b1ee007f")
+		(property "Reference" "#PWR0242"
+			(at 129.54 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 129.54 283.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c521cbd-5502-4926-a30c-9f30d28e8adc")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0242")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74LVC2G17")
 		(at 474.98 106.68 90)
 		(unit 1)
@@ -28914,6 +28587,71 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "R141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 647.7 383.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bc371c6-1323-4aa2-bd63-080abf210692")
+		(property "Reference" "#PWR0338"
+			(at 647.7 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 647.7 379.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 647.7 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 647.7 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 647.7 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7d54c01-5e1e-4c66-bcb6-51cbb899051d")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0338")
 					(unit 1)
 				)
 			)
@@ -29555,6 +29293,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 441.96 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "515e88ea-80d6-47ea-bb44-2df57ba24a45")
+		(property "Reference" "#PWR0290"
+			(at 441.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 441.96 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 441.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 441.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 441.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80aa2752-9da5-4ae6-8e52-679e8c96e8f0")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0290")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 680.72 473.71 0)
 		(unit 1)
@@ -30188,72 +29991,6 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "#PWR0252")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 441.96 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55814fc7-b43a-43d2-9c3c-963ded584b87")
-		(property "Reference" "#PWR0290"
-			(at 441.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 441.96 90.551 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 441.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 441.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 441.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf6e7905-debe-4711-93bb-bd20d3dd29e6")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0290")
 					(unit 1)
 				)
 			)
@@ -31073,6 +30810,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 647.7 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58fb5606-e3a8-460d-9e46-1d6e19b40f93")
+		(property "Reference" "#PWR0299"
+			(at 647.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 647.7 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 647.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 647.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 647.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c40034cd-778f-4351-ac86-80495ad9a59d")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0299")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 120.65 203.2 0)
 		(mirror y)
@@ -31203,72 +31005,6 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "#PWR0193")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 60.96 287.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59fdc87c-a7c7-4733-8283-db9fb845d715")
-		(property "Reference" "#PWR0242"
-			(at 60.96 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 60.96 283.591 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00a10124-b05b-4a5f-87b4-46da0cc02e22")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0242")
 					(unit 1)
 				)
 			)
@@ -33379,17 +33115,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 198.12 190.5 0)
+		(lib_id "power:+5V")
+		(at 647.7 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66daf840-0f03-4735-91be-bba04e3f617d")
-		(property "Reference" "#PWR0204"
-			(at 198.12 194.31 0)
+		(uuid "66fba944-48af-4e99-8c68-c16d64d5fa51")
+		(property "Reference" "#PWR0314"
+			(at 647.7 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33397,8 +33132,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 198.12 187.071 0)
+		(property "Value" "+5V"
+			(at 647.7 186.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33406,7 +33141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 190.5 0)
+			(at 647.7 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33415,7 +33150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 190.5 0)
+			(at 647.7 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33424,7 +33159,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 190.5 0)
+			(at 647.7 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33433,12 +33168,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "9249de1b-e6b7-4f71-bc05-590f3e20762a")
+			(uuid "38fcaec3-baa2-414d-a2af-a5091a7590d7")
 		)
 		(instances
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0204")
+					(reference "#PWR0314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 647.7 287.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "671f3737-18a3-491a-b568-a0340918e6ff")
+		(property "Reference" "#PWR0326"
+			(at 647.7 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 647.7 283.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 647.7 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 647.7 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 647.7 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b78abc56-8074-45e0-a36d-5b5baa5c54bf")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0326")
 					(unit 1)
 				)
 			)
@@ -33508,6 +33308,71 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "R204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 266.7 383.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67b9f83f-b537-4f90-baa7-5ce8db6c7ce1")
+		(property "Reference" "#PWR0260"
+			(at 266.7 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 266.7 379.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ace0ffd-36ec-45ac-b949-c1c31add82b7")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0260")
 					(unit 1)
 				)
 			)
@@ -33928,72 +33793,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 441.96 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cdeec75-a3c0-4da4-ba22-8b4c089d1e79")
-		(property "Reference" "#PWR0302"
-			(at 441.96 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 441.96 187.071 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 441.96 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 441.96 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 441.96 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37c86c59-ee0c-492e-8560-be2c53de584e")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xGxx:74LVC2G17")
 		(at 93.98 106.68 90)
 		(unit 1)
@@ -34214,6 +34013,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 266.7 576.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f2928f6-fcb2-4b74-b91b-97f4e07933b9")
+		(property "Reference" "#PWR0287"
+			(at 266.7 580.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 266.7 573.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b100417a-4f3e-48b7-89ff-4c1bc9869b69")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0287")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 579.12 217.17 0)
 		(mirror y)
@@ -34274,204 +34138,6 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "#PWR0309")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 198.12 383.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fe3d159-6dab-4af1-9df8-ed632429a771")
-		(property "Reference" "#PWR0260"
-			(at 198.12 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 198.12 380.111 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4bd54b17-05f2-4d44-983e-9571564a5021")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0260")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 510.54 576.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70883579-b59a-4952-a73c-60977c2a038b")
-		(property "Reference" "#PWR0353"
-			(at 510.54 580.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 510.54 573.151 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 510.54 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 510.54 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 510.54 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf9b50e9-b577-435a-b795-821f83bd39e4")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0353")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 266.7 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70954fcb-a285-419b-a570-9d93cbf202ae")
-		(property "Reference" "#PWR0191"
-			(at 266.7 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 266.7 90.551 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 266.7 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa7c1e74-6898-4cfd-a87c-795301a724ad")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -34703,72 +34369,6 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "R203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 441.96 576.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73c0437a-327a-46a7-9cd2-e66796f3bcc8")
-		(property "Reference" "#PWR0350"
-			(at 441.96 580.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 441.96 573.151 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 441.96 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 441.96 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 441.96 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1d91ba3-cd84-409f-a3a9-cf53bb699379")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0350")
 					(unit 1)
 				)
 			)
@@ -35244,6 +34844,71 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 441.96 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "789e7a3f-1937-4168-9944-806cf4123d4c")
+		(property "Reference" "#PWR0302"
+			(at 441.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 441.96 186.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 441.96 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 441.96 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 441.96 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44b7fdb4-1e43-4bfa-87ff-24f8c73b41ea")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -35772,6 +35437,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 441.96 480.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7af34375-fe70-4ce9-a964-97a57b4d138f")
+		(property "Reference" "#PWR0272"
+			(at 441.96 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 441.96 476.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 441.96 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 441.96 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 441.96 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92503f06-d6a7-4dff-8ccd-a0cda777d7c0")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0272")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 198.12 383.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bdcc97e-ff0e-4913-9de8-b130e2bd7451")
+		(property "Reference" "#PWR0257"
+			(at 198.12 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 198.12 379.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9560d76a-039a-453e-a3b0-7bd6b4c29002")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0257")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74LVC2G17")
 		(at 162.56 492.76 90)
 		(unit 1)
@@ -36271,72 +36066,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 60.96 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "815babb9-c3bb-4c43-ab76-e4a383f57518")
-		(property "Reference" "#PWR0195"
-			(at 60.96 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 60.96 187.071 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25844449-5fa5-4ddc-a554-2c0d7525ebdf")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0195")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xGxx:74LVC2G17")
 		(at 647.7 398.78 0)
 		(unit 3)
@@ -36629,6 +36358,71 @@
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "U59")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 266.7 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83ee89aa-fbe0-4b96-bc1e-b1e55c958c90")
+		(property "Reference" "#PWR0204"
+			(at 266.7 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 266.7 186.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "814663d0-3629-4026-b619-7bd5421682e4")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0204")
+					(unit 1)
 				)
 			)
 		)
@@ -37250,17 +37044,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 579.12 576.58 0)
+		(lib_id "power:+5V")
+		(at 198.12 480.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86a8694a-9683-49fc-a702-df371375e8ba")
-		(property "Reference" "#PWR0356"
-			(at 579.12 580.39 0)
+		(uuid "8771d2fb-061d-4962-8ba1-2fb856f90685")
+		(property "Reference" "#PWR0269"
+			(at 198.12 483.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37268,8 +37061,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 579.12 573.151 0)
+		(property "Value" "+5V"
+			(at 198.12 476.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37277,7 +37070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 579.12 576.58 0)
+			(at 198.12 480.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37286,7 +37079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 579.12 576.58 0)
+			(at 198.12 480.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37295,7 +37088,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 579.12 576.58 0)
+			(at 198.12 480.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37304,12 +37097,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "46166478-2166-4080-aa3f-7e0dc72dc5c1")
+			(uuid "c17008c7-3899-49c5-972e-94a8a06fc561")
 		)
 		(instances
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0356")
+					(reference "#PWR0269")
 					(unit 1)
 				)
 			)
@@ -37379,6 +37172,136 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "R210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 510.54 287.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8811ff5b-d630-43e7-9839-a1b7b7621f63")
+		(property "Reference" "#PWR0320"
+			(at 510.54 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 510.54 283.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 510.54 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 510.54 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 510.54 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69fff11d-b341-4207-9e2a-3d70f51cbec8")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0320")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 510.54 383.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88ae799a-8409-4503-93e8-3f3fdfff3168")
+		(property "Reference" "#PWR0332"
+			(at 510.54 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 510.54 379.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 510.54 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 510.54 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 510.54 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a60eb33-4645-4b5d-991b-7e815c340477")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0332")
 					(unit 1)
 				)
 			)
@@ -37668,72 +37591,6 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "R202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 129.54 480.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c7717da-415c-48a4-9223-8d13bcf18883")
-		(property "Reference" "#PWR0269"
-			(at 129.54 483.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 129.54 476.631 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c09138b8-6301-4a02-bbf2-eec0986c2292")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0269")
 					(unit 1)
 				)
 			)
@@ -38153,6 +38010,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 129.54 576.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f4ec70e-e1f4-43d8-8599-27dda7eae238")
+		(property "Reference" "#PWR0281"
+			(at 129.54 580.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 129.54 573.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5eac3da-5e90-464b-a3cf-e90344e6ba70")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0281")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 340.36 300.99 0)
 		(unit 1)
@@ -38284,72 +38206,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 441.96 480.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91aa4a8e-af8f-4425-82e3-365c97302a4c")
-		(property "Reference" "#PWR0338"
-			(at 441.96 483.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 441.96 476.631 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 441.96 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 441.96 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 441.96 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0a5c58b-8a44-43dd-ba34-24dde37b16d6")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0338")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 189.23 104.14 0)
 		(mirror y)
@@ -38414,138 +38270,6 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 129.54 576.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92d91eed-efe3-4885-9a35-11a08a68b7b0")
-		(property "Reference" "#PWR0281"
-			(at 129.54 580.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 129.54 573.151 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05b8bd9e-ff72-44e8-b23a-c3df7fb49451")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0281")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 510.54 480.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92ea5e28-2ee0-4471-a8f2-07373bf5f948")
-		(property "Reference" "#PWR0341"
-			(at 510.54 483.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 510.54 476.631 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 510.54 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 510.54 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 510.54 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfa250f0-934a-4f53-b9d6-4919140019ac")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0341")
 					(unit 1)
 				)
 			)
@@ -38681,138 +38405,6 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "C68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 510.54 287.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94e51864-2a44-4f76-af5b-a9944ba649a0")
-		(property "Reference" "#PWR0317"
-			(at 510.54 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 510.54 283.591 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 510.54 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 510.54 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 510.54 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da60433d-5128-421b-b0de-238ee2890fec")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0317")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 647.7 480.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "955273e2-496d-4686-b6a5-12fbbb34f8a7")
-		(property "Reference" "#PWR0347"
-			(at 647.7 483.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 647.7 476.631 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 647.7 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 647.7 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 647.7 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32871691-e023-4fb6-afed-b3f93543b1e1")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0347")
 					(unit 1)
 				)
 			)
@@ -39323,6 +38915,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 198.12 576.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98da3f12-8e08-48d0-8989-e0828efc515f")
+		(property "Reference" "#PWR0284"
+			(at 198.12 580.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 198.12 573.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66ccc7e0-d4c3-4b26-bb0c-6b0e3587addf")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0284")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 60.96 576.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "995c2786-fa4a-400d-be06-36a5c5ae415e")
+		(property "Reference" "#PWR0278"
+			(at 60.96 580.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 60.96 573.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d772553-65db-419e-acfd-338adc5db6c1")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0278")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 457.2 87.63 0)
 		(unit 1)
@@ -39517,6 +39239,71 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 266.7 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b247be2-ae11-45e5-ade4-ecd23a56b7a0")
+		(property "Reference" "#PWR0186"
+			(at 266.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 266.7 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "907f613a-19bf-4d76-b071-5d7a77f6559d")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -39939,72 +39726,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 266.7 287.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d6d4cbb-ac11-45bf-8af9-55282c5d876e")
-		(property "Reference" "#PWR0251"
-			(at 266.7 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 266.7 283.591 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 266.7 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "886ba7be-9d9d-47b4-a176-0cd8000acc0b")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0251")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xGxx:74LVC2G17")
 		(at 162.56 299.72 90)
 		(unit 1)
@@ -40237,6 +39958,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 579.12 480.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ee62596-4f22-4487-97f2-24a1db918c57")
+		(property "Reference" "#PWR0347"
+			(at 579.12 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 579.12 476.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 579.12 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 579.12 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 579.12 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6191482-df42-4de2-9a39-a64a62a022d5")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0347")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 662.94 570.23 0)
 		(unit 1)
@@ -40450,6 +40236,71 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "R150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 60.96 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a028eeb1-f88c-4600-841a-c04c0ef22453")
+		(property "Reference" "#PWR0361"
+			(at 60.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 60.96 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54d98cf4-a641-41f8-b867-c67e13f10bc1")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0361")
 					(unit 1)
 				)
 			)
@@ -40768,6 +40619,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 60.96 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a477e7d5-7f17-497b-8129-fd930f8ce599")
+		(property "Reference" "#PWR0191"
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 60.96 186.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ac80dd2-d8f3-4ba8-8f4a-fdf595698d29")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 501.65 111.76 0)
 		(mirror y)
@@ -40910,6 +40826,71 @@
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "U49")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 441.96 576.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a619e66a-4403-4848-a9b4-bc83652a8665")
+		(property "Reference" "#PWR0353"
+			(at 441.96 580.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 441.96 573.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 441.96 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 441.96 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 441.96 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a9e7302-49ed-4447-953d-78d28207a438")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0353")
+					(unit 1)
 				)
 			)
 		)
@@ -41244,6 +41225,71 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "#PWR0250")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 60.96 287.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a81ffef2-ba55-4fc8-83b5-1cd89436a55f")
+		(property "Reference" "#PWR0239"
+			(at 60.96 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 60.96 283.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d73089b2-abaf-41a5-8f3e-459c7a35fadb")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -42710,6 +42756,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 129.54 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b148761c-27f3-41ff-826b-5cd1ba091a89")
+		(property "Reference" "#PWR0179"
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 129.54 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24f4e3ee-ba62-4354-b4e8-28973682c8d3")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74LVC2G17")
 		(at 266.7 205.74 0)
 		(unit 3)
@@ -42953,17 +43064,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 266.7 480.06 0)
+		(lib_id "power:+5V")
+		(at 647.7 480.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b41524ca-0624-48f6-af04-412d746aa849")
-		(property "Reference" "#PWR0275"
-			(at 266.7 483.87 0)
+		(uuid "b3fec214-5b52-4541-8e18-43972be7f8e0")
+		(property "Reference" "#PWR0350"
+			(at 647.7 483.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42971,8 +43081,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 266.7 476.631 0)
+		(property "Value" "+5V"
+			(at 647.7 476.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42980,7 +43090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 480.06 0)
+			(at 647.7 480.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42989,7 +43099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 480.06 0)
+			(at 647.7 480.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42998,7 +43108,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 480.06 0)
+			(at 647.7 480.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43007,12 +43117,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a18a7441-f7fc-4bc1-87f0-ae1b8dbdd793")
+			(uuid "03d723a3-f129-47d9-82fe-65a55e24b23b")
 		)
 		(instances
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0275")
+					(reference "#PWR0350")
 					(unit 1)
 				)
 			)
@@ -44040,72 +44150,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 129.54 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd31c179-4a64-4479-8ba8-72ec586dabe0")
-		(property "Reference" "#PWR0198"
-			(at 129.54 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 129.54 187.071 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9526f8c2-ee2f-4a7d-a9c1-201dbd20508a")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0198")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 579.12 313.69 0)
 		(mirror y)
@@ -44307,72 +44351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 266.7 576.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be11d300-1f07-4e1a-8c1a-ae97079f7134")
-		(property "Reference" "#PWR0287"
-			(at 266.7 580.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 266.7 573.151 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 266.7 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d24c0fa0-ced7-4992-917f-af5f4fbee3dd")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0287")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xGxx:74LVC2G17")
 		(at 144.78 299.72 90)
 		(unit 2)
@@ -44454,138 +44432,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 198.12 576.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf7f5729-694b-4f44-9980-ca119660e964")
-		(property "Reference" "#PWR0284"
-			(at 198.12 580.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 198.12 573.151 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d3499d5-7a10-4b35-9e62-a841e751a309")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0284")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 129.54 287.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bffff721-2d47-45a8-b457-80dccb642325")
-		(property "Reference" "#PWR0245"
-			(at 129.54 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 129.54 283.591 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17b07ff2-2c55-4fa3-88c5-b9525d4be52d")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0245")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 340.36 279.4 0)
 		(unit 1)
@@ -44645,72 +44491,6 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 441.96 287.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1c7c13a-f8a9-400d-acf8-4c6e47855ac3")
-		(property "Reference" "#PWR0314"
-			(at 441.96 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 441.96 283.591 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 441.96 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 441.96 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 441.96 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6813ec76-b727-4867-a7cc-5221d3be443a")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -45002,72 +44782,6 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "C65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 198.12 287.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4571b70-01f2-4320-b401-90dc602f7ce3")
-		(property "Reference" "#PWR0248"
-			(at 198.12 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 198.12 283.591 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "024ed5b8-e11c-48a8-b6e5-4d4475468ef5")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0248")
 					(unit 1)
 				)
 			)
@@ -46656,6 +46370,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 579.12 383.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf3a658e-dec2-4cee-9e70-74544af6e3c2")
+		(property "Reference" "#PWR0335"
+			(at 579.12 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 579.12 379.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 579.12 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 579.12 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 579.12 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbed9430-da5e-4873-89dd-d75b3676ce9f")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0335")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74LVC2G17")
 		(at 594.36 589.28 90)
 		(unit 2)
@@ -46813,6 +46592,71 @@
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "U50")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 510.54 480.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0f039fa-e553-4bb7-a247-143f97580ab2")
+		(property "Reference" "#PWR0344"
+			(at 510.54 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 510.54 476.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 510.54 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 510.54 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 510.54 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "023df338-4929-45d1-855e-bdb0b05b010e")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0344")
+					(unit 1)
 				)
 			)
 		)
@@ -47097,6 +46941,71 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "R161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 441.96 287.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1fddfee-1736-4bb3-8a06-f0d3e9c5699d")
+		(property "Reference" "#PWR0317"
+			(at 441.96 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 441.96 283.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 441.96 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 441.96 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 441.96 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6aa91f87-4139-4f97-9f08-e00262242ac0")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -47807,6 +47716,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 60.96 383.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6a8fc7b-d8ab-405c-8d8d-b0bb1cfd0ab3")
+		(property "Reference" "#PWR0251"
+			(at 60.96 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 60.96 379.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e54e5d8e-d6f7-4cbe-b19e-1f8d0f70e442")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0251")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 474.98 570.23 0)
 		(unit 1)
@@ -48088,72 +48062,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 60.96 480.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d89042f8-4bd2-475c-ae40-900a4515e754")
-		(property "Reference" "#PWR0266"
-			(at 60.96 483.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 60.96 476.631 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a737889c-d0f3-4115-bcd8-04df1f3bd1ea")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0266")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 129.54 120.65 0)
 		(mirror y)
@@ -48327,138 +48235,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 60.96 576.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d949d1f3-bf4a-48e3-bf11-75b790aab11b")
-		(property "Reference" "#PWR0278"
-			(at 60.96 580.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 60.96 573.151 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cee72558-9f89-431a-961c-bd9b6530debe")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0278")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 579.12 287.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9989066-5df5-4390-8756-5e50e1987fa1")
-		(property "Reference" "#PWR0320"
-			(at 579.12 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 579.12 283.591 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 579.12 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 579.12 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 579.12 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a935e450-03c6-4d60-9198-8cde44aa44d4")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0320")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 721.36 568.96 0)
 		(unit 1)
@@ -48587,6 +48363,71 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "R166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 647.7 576.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbf3dcae-700d-48a6-8b97-59a94e66ff0f")
+		(property "Reference" "#PWR0362"
+			(at 647.7 580.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 647.7 573.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 647.7 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 647.7 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 647.7 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ab8c1c5-a2dd-44fe-812c-1082858bc1d3")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0362")
 					(unit 1)
 				)
 			)
@@ -48824,17 +48665,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 129.54 383.54 0)
+		(lib_id "power:+5V")
+		(at 129.54 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddbcc16a-4303-47c8-b08c-4ee17bb09fbe")
-		(property "Reference" "#PWR0257"
-			(at 129.54 387.35 0)
+		(uuid "dd8ac8cc-c6cd-4b85-aa83-4483ee59367c")
+		(property "Reference" "#PWR0195"
+			(at 129.54 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48842,8 +48682,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 129.54 380.111 0)
+		(property "Value" "+5V"
+			(at 129.54 186.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48851,7 +48691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 383.54 0)
+			(at 129.54 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48860,7 +48700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 383.54 0)
+			(at 129.54 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48869,7 +48709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 383.54 0)
+			(at 129.54 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48878,78 +48718,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "87bdfbc1-e0d7-446e-815a-49bafeeabf02")
+			(uuid "4b94c4d2-4bc1-4c1d-8a90-f4732db231f9")
 		)
 		(instances
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0257")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 647.7 576.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de405f70-cc48-469d-8203-d60ce994c756")
-		(property "Reference" "#PWR0359"
-			(at 647.7 580.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 647.7 573.151 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 647.7 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 647.7 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 647.7 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2dec7e2a-691b-45fb-a655-4c207f9bb3be")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0359")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -49598,72 +49372,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 647.7 383.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e358a731-20d6-4aa1-909f-bb3201d3b7fe")
-		(property "Reference" "#PWR0335"
-			(at 647.7 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 647.7 380.111 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 647.7 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 647.7 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 647.7 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ecdd1df-2ef6-485e-9a54-c08e98d56025")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0335")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xGxx:74LVC2G17")
 		(at 441.96 302.26 0)
 		(unit 3)
@@ -50107,17 +49815,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 60.96 383.54 0)
+		(lib_id "power:+5V")
+		(at 579.12 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e56ce2dc-5578-47d3-9b97-15d3a9b653eb")
-		(property "Reference" "#PWR0254"
-			(at 60.96 387.35 0)
+		(uuid "e4d1e620-c181-4fcd-8649-76c1eac40064")
+		(property "Reference" "#PWR0296"
+			(at 579.12 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50125,8 +49832,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 60.96 380.111 0)
+		(property "Value" "+5V"
+			(at 579.12 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50134,7 +49841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 383.54 0)
+			(at 579.12 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50143,7 +49850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 383.54 0)
+			(at 579.12 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50152,7 +49859,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 383.54 0)
+			(at 579.12 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50161,12 +49868,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cef76908-51d4-40b8-83cc-b278e7f81939")
+			(uuid "e139f260-ec11-4ae2-9381-d70d12d99624")
 		)
 		(instances
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0254")
+					(reference "#PWR0296")
 					(unit 1)
 				)
 			)
@@ -51222,6 +50929,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 198.12 287.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec9d9f2c-2fc8-4ac2-a612-40a92042d735")
+		(property "Reference" "#PWR0245"
+			(at 198.12 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 198.12 283.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b7932fd-9a22-4e89-99f7-b856932c3fcb")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0245")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 433.07 497.84 0)
 		(mirror y)
@@ -51567,6 +51339,71 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "R146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 266.7 287.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eea61acd-70f8-4823-9258-e31a18cdbe6d")
+		(property "Reference" "#PWR0248"
+			(at 266.7 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 266.7 283.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "215c1d18-e7fa-41f7-826a-c0e6b3f2ec30")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0248")
 					(unit 1)
 				)
 			)
@@ -52044,17 +51881,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 266.7 190.5 0)
+		(lib_id "power:+5V")
+		(at 579.12 287.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eff5bf1a-071e-484f-955f-0a90f1d26757")
-		(property "Reference" "#PWR0239"
-			(at 266.7 194.31 0)
+		(uuid "eff4ea59-8fa6-4e55-a325-83f6c9863fa0")
+		(property "Reference" "#PWR0323"
+			(at 579.12 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52062,8 +51898,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 266.7 187.071 0)
+		(property "Value" "+5V"
+			(at 579.12 283.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52071,7 +51907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 190.5 0)
+			(at 579.12 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52080,7 +51916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 190.5 0)
+			(at 579.12 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52089,7 +51925,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 190.5 0)
+			(at 579.12 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52098,12 +51934,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a66ab7a-609a-4e3b-9fdc-820b03554ac4")
+			(uuid "bdae9d3b-0b11-4481-a7fa-d94e79378950")
 		)
 		(instances
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0239")
+					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
@@ -52470,138 +52306,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 647.7 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f15972d7-bf8e-4831-8d2a-ad30beee81b2")
-		(property "Reference" "#PWR0311"
-			(at 647.7 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 647.7 187.071 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 647.7 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 647.7 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 647.7 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d80b1eb8-6752-42c5-83b6-4036e7edbe8b")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0311")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 579.12 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1aea569-4aa6-4f4f-8bdd-744e51fd666c")
-		(property "Reference" "#PWR0308"
-			(at 579.12 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 579.12 187.071 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 579.12 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 579.12 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 579.12 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b568e0e1-41b4-4bc8-8390-2a78472a13ce")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0308")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 120.65 497.84 0)
 		(mirror y)
@@ -52662,6 +52366,71 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "#PWR0268")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 579.12 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2a4bebf-c7bb-4c2b-9d3f-4389c47dac75")
+		(property "Reference" "#PWR0311"
+			(at 579.12 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 579.12 186.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 579.12 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 579.12 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 579.12 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51b4f1f9-3db4-46b0-8781-02b9f4dd1f79")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -52962,6 +52731,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 266.7 480.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6068d4d-57f2-49b6-8e48-b157baa5ac9b")
+		(property "Reference" "#PWR0275"
+			(at 266.7 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 266.7 476.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3279c4aa-7233-4c65-a5ed-1d4d74744791")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0275")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 162.56 377.19 0)
 		(unit 1)
@@ -53025,6 +52859,71 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "R154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 129.54 480.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f70c0f24-7266-4589-a049-03e24e6e730b")
+		(property "Reference" "#PWR0266"
+			(at 129.54 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 129.54 476.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7c9fb73-fbf0-4fc3-a3cc-5bada3765e29")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0266")
 					(unit 1)
 				)
 			)
@@ -53544,72 +53443,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 510.54 383.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f97d86d7-8251-466d-97d5-515185e7773c")
-		(property "Reference" "#PWR0329"
-			(at 510.54 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 510.54 380.111 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 510.54 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 510.54 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 510.54 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19fd0094-53e8-4237-b8b7-bb5306bfd870")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0329")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 93.98 87.63 0)
 		(unit 1)
@@ -53971,72 +53804,6 @@
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "U72")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 510.54 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb7b4576-58ae-46f4-b9e5-03af13cd2188")
-		(property "Reference" "#PWR0305"
-			(at 510.54 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 510.54 187.071 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 510.54 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 510.54 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 510.54 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17d638e5-26b4-482c-8aee-45ed764ce5e0")
-		)
-		(instances
-			(project "teensy_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "#PWR0305")
-					(unit 1)
 				)
 			)
 		)
@@ -54821,6 +54588,71 @@
 			(project "teensy_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
 					(reference "#PWR0249")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 441.96 383.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffbfc837-e120-4ad1-8f42-00b8d1945162")
+		(property "Reference" "#PWR0329"
+			(at 441.96 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 441.96 379.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 441.96 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 441.96 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 441.96 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a0f44a1-c6b1-42b1-97cd-079b01186f6f")
+		)
+		(instances
+			(project "teensy_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
+					(reference "#PWR0329")
 					(unit 1)
 				)
 			)

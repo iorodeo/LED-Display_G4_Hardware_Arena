@@ -2410,3 +2410,606 @@ Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
 2024-08-28 11:59:27.166 [Thread-35] INFO  Starting route optimization on 1 thread...
 2024-08-28 11:59:57.740 [Thread-35] INFO  Route optimization was completed in 30.57 seconds.
 2024-08-28 12:16:45.739 [AWT-EventQueue-0] INFO  Saving 'teensy_arena_12-12.ses'...
+2024-12-19 10:32:28.457 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-12-19 10:32:29.508 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-12-19 10:32:38.422 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-12-19 10:32:38.455 [main] INFO  Settings were loaded from freerouting.json
+2024-12-19 10:32:39.470 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-12-19 10:33:53.217 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-12-19 10:33:53.249 [main] INFO  Settings were loaded from freerouting.json
+2024-12-19 10:33:54.263 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-12-19 10:39:47.820 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-12-19 10:39:47.853 [main] INFO  Settings were loaded from freerouting.json
+2024-12-19 10:39:48.879 [main] INFO  Opening 'teensy_arena_12-12.ses'...
+2024-12-19 10:39:48.873 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-12-19 10:39:49.133 [main] WARN  DsnFile.read: the input file is not in a Specctra DSN file format. It must be a text file starting with the '(pcb' character array.
+2024-12-19 10:39:56.432 [main] WARN  Couldn't create window frame
+2024-12-19 10:40:17.196 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-12-19 10:40:17.229 [main] INFO  Settings were loaded from freerouting.json
+2024-12-19 10:40:18.260 [main] INFO  Opening 'teensy_arena_12-12.dsn'...
+2024-12-19 10:40:18.255 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-12-19 10:42:37.282 [Thread-49] INFO  Starting auto-routing...
+2024-12-19 10:42:38.041 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.057 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.070 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.078 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.084 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.090 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.099 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.108 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.173 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.184 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.194 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.202 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.208 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.212 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.217 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.221 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.225 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.230 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.234 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.239 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.247 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.251 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.255 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.258 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.262 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.266 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.270 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.274 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.288 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.292 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.296 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.300 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.302 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.306 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.309 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.313 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.317 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.320 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.323 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.327 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.331 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.334 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.338 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.341 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.344 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.347 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.350 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.353 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.356 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.359 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.362 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.432 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.437 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.442 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.447 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.450 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.453 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.456 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.459 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.462 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.466 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.470 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.473 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.477 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.480 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.483 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.488 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.509 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.511 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.513 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.515 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.517 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.518 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.521 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.524 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.526 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.528 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.529 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.531 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.533 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.535 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.537 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.539 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.541 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.544 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.547 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.549 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.552 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.554 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.558 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.560 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.562 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.564 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.566 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.567 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.570 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.572 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.574 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.576 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.578 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.579 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.582 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.585 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.587 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.590 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.592 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.594 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.599 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.610 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.614 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.616 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.619 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.621 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.626 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.628 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.631 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.634 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.638 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.641 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.644 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.647 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.650 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.654 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.657 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.660 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.663 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.669 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.672 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.677 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.681 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.687 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.692 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.695 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.698 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.701 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.705 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.711 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.714 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.718 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.722 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.725 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.742 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.743 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.756 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.758 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.760 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.762 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.767 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.769 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.774 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.776 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.779 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.782 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.783 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.785 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.788 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.790 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.792 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.795 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.799 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.803 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.807 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.810 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.812 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.814 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.818 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.822 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.825 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.828 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.832 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.837 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.840 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.845 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.852 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.854 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.859 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.865 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.871 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.874 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.880 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.887 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.889 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.891 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.893 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.901 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.903 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.905 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.909 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.912 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.914 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.917 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.921 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.925 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.926 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.931 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.936 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.940 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.943 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.946 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.949 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.951 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.953 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.956 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.958 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.960 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.963 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.966 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.969 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.970 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.974 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.978 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.980 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.982 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.984 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.986 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.989 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.992 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:38.998 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.000 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.005 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.007 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.011 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.013 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.014 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.018 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.021 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.023 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.026 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.029 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.032 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.034 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.038 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.046 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.048 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.051 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.054 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.060 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.063 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.066 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.070 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.074 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.077 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.081 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.085 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.087 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.093 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.096 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.100 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.103 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.108 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.112 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.115 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.119 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:42:39.123 [Thread-49] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:24.174 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-12-19 10:43:24.207 [main] INFO  Settings were loaded from freerouting.json
+2024-12-19 10:43:25.226 [main] INFO  Opening 'teensy_arena_12-12.dsn'...
+2024-12-19 10:43:25.221 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-12-19 10:43:34.254 [Thread-34] INFO  Starting auto-routing...
+2024-12-19 10:43:35.060 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.080 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.086 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.091 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.096 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.100 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.109 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.116 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.167 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.172 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.178 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.184 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.187 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.189 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.193 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.196 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.200 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.203 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.206 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.211 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.217 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.220 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.223 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.225 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.229 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.233 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.236 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.239 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.248 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.251 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.253 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.256 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.258 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.261 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.263 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.267 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.269 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.271 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.274 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.277 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.280 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.282 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.286 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.288 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.290 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.293 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.295 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.297 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.299 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.301 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.304 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.356 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.359 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.362 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.365 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.367 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.369 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.371 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.373 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.376 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.380 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.383 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.386 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.390 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.395 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.398 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.401 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.423 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.425 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.427 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.430 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.433 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.435 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.439 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.441 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.443 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.445 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.447 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.449 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.451 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.453 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.456 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.458 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.460 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.464 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.470 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.473 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.476 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.479 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.483 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.485 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.488 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.490 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.493 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.495 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.498 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.502 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.504 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.507 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.509 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.512 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.515 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.519 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.523 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.526 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.529 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.531 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.535 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.547 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.551 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.553 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.556 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.559 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.561 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.564 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.566 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.569 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.571 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.574 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.577 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.579 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.582 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.584 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.587 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.591 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.594 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.598 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.601 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.605 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.608 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.614 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.618 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.620 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.623 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.626 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.630 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.635 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.638 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.641 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.644 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.648 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.666 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.668 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.681 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.683 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.685 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.687 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.694 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.697 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.705 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.707 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.711 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.714 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.715 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.717 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.721 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.724 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.726 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.730 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.734 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.738 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.742 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.745 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.748 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.750 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.755 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.759 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.761 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.764 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.769 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.773 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.776 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.780 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.786 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.788 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.793 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.797 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.802 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.805 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.812 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.816 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.818 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.822 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.824 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.832 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.833 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.835 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.839 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.842 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.844 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.847 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.851 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.854 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.856 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.861 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.865 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.869 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.873 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.876 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.880 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.882 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.885 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.888 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.890 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.892 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.896 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.899 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.902 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.904 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.908 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.912 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.915 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.918 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.921 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.924 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.927 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.934 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.945 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.948 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.958 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.962 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.969 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.972 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.974 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.979 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.982 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.986 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.989 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.994 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.997 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:35.999 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.003 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.009 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.011 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.015 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.019 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.022 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.025 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.028 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.032 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.035 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.037 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.039 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.042 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.045 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.049 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.052 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.056 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.059 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.063 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.066 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.069 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.072 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 10:43:36.075 [Thread-34] WARN  FloatLine: Parameter is null
+2024-12-19 11:40:45.262 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 11:45:29.717 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 11:45:29.941 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 11:46:04.565 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 11:46:04.851 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 11:46:44.310 [Thread-34] INFO  Auto-routing was completed in 1 hour(s) 3 minute(s) 10.05 seconds.
+2024-12-19 11:46:44.411 [Thread-34] INFO  Starting route optimization on 1 thread...
+2024-12-19 12:07:41.417 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:07:41.424 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:07:42.448 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:07:42.458 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:13:08.729 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:13:09.607 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:18:33.561 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:19:29.581 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:21:25.445 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:22:11.631 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:22:11.971 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:23:48.234 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:26:00.925 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:32:13.086 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:36:51.367 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:40:17.381 [Thread-34] WARN  CalcFromSide: start corner was not found
