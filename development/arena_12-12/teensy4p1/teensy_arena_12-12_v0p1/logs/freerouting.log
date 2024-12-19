@@ -3013,3 +3013,14 @@ Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
 2024-12-19 12:32:13.086 [Thread-34] WARN  CalcFromSide: start corner was not found
 2024-12-19 12:36:51.367 [Thread-34] WARN  CalcFromSide: start corner was not found
 2024-12-19 12:40:17.381 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:42:45.597 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:45:48.296 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:45:56.625 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:58:05.798 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 12:59:29.265 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 13:04:19.348 [Thread-34] WARN  CalcFromSide: start corner was not found
+2024-12-19 13:28:10.235 [Thread-34] INFO  Route optimization was completed in 1 hour(s) 41 minute(s) 25.82 seconds and it improved the design by ~50.49%.
+2024-12-19 13:28:18.347 [AWT-EventQueue-0] INFO  Saving 'teensy_arena_12-12.ses'...
+2024-12-19 13:28:24.704 [Thread-59] INFO  Starting auto-routing...
+2024-12-19 13:28:25.187 [Thread-59] INFO  Auto-routing was completed in 0.48 seconds.
+2024-12-19 13:28:25.288 [Thread-59] INFO  Starting route optimization on 1 thread...
