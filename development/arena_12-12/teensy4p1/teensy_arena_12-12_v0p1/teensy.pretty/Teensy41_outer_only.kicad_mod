@@ -183,56 +183,6 @@
 		(uuid "f127af2c-a3ba-4868-be36-4ecf16f94778")
 	)
 	(fp_line
-		(start -17.25 -6.3516)
-		(end -17.25 -6.1016)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f3e9f67c-944e-4efa-a7ac-8d0318c1d53b")
-	)
-	(fp_line
-		(start -17.25 -6.1016)
-		(end -17.25 -0.1016)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c1aa97d0-9bc0-4786-8f8b-fe67e1775765")
-	)
-	(fp_line
-		(start -17.25 -0.1016)
-		(end -13.25 -0.1016)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "0e4deaf0-45a2-4d01-8e70-a5431b6a9dc4")
-	)
-	(fp_line
-		(start -13.25 -6.3516)
-		(end -17.25 -6.3516)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ee8bdf24-f302-468e-b85d-1062dd9014f0")
-	)
-	(fp_line
-		(start -13.25 -0.1016)
-		(end -13.25 -6.3516)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "3d97ec69-ed9c-479a-80e8-66ea98a8fdb7")
-	)
-	(fp_line
 		(start -11.4808 3.2992)
 		(end -11.4808 5.8392)
 		(stroke
@@ -519,6 +469,56 @@
 		(layer "F.SilkS")
 		(uuid "18a7cf2d-c732-4b73-b758-dca23adc90b4")
 	)
+	(fp_line
+		(start -17.25 -6.3516)
+		(end -17.25 -6.1016)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f3e9f67c-944e-4efa-a7ac-8d0318c1d53b")
+	)
+	(fp_line
+		(start -17.25 -6.1016)
+		(end -17.25 -0.1016)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c1aa97d0-9bc0-4786-8f8b-fe67e1775765")
+	)
+	(fp_line
+		(start -17.25 -0.1016)
+		(end -13.25 -0.1016)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0e4deaf0-45a2-4d01-8e70-a5431b6a9dc4")
+	)
+	(fp_line
+		(start -13.25 -6.3516)
+		(end -17.25 -6.3516)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ee8bdf24-f302-468e-b85d-1062dd9014f0")
+	)
+	(fp_line
+		(start -13.25 -0.1016)
+		(end -13.25 -6.3516)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3d97ec69-ed9c-479a-80e8-66ea98a8fdb7")
+	)
 	(fp_rect
 		(start -30.48 -8.89)
 		(end 30.48 -6.35)
@@ -574,24 +574,13 @@
 			)
 		)
 	)
-	(fp_text user "Ethernet"
-		(at -12.065 -3.2766 90)
-		(layer "F.SilkS")
-		(uuid "b962b73b-3ed7-4212-af3a-51babefce211")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "MIMXRT1062"
 		(at -1.27 0 -90)
 		(layer "F.SilkS")
 		(uuid "c9021d36-6297-4ee8-8faa-5f216a1ed000")
 		(effects
 			(font
-				(size 0.7 0.7)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
@@ -602,7 +591,18 @@
 		(uuid "de70719e-5284-4b57-bc82-88c57fc32a95")
 		(effects
 			(font
-				(size 0.7 0.7)
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Ethernet"
+		(at -12.065 -3.2766 90)
+		(layer "Dwgs.User")
+		(uuid "b962b73b-3ed7-4212-af3a-51babefce211")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
