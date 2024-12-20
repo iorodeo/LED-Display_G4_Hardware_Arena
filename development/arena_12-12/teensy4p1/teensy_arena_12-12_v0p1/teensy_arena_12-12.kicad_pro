@@ -568,7 +568,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "arena.net",
-      "plot": "",
+      "plot": "production/version_0p1_r1/gerber/",
       "pos_files": "",
       "specctra_dsn": "teensy_arena_12-12.dsn",
       "step": "",

@@ -1527,24 +1527,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 27.94 58.42 180)
-					(length 5.08)
-					(name "VUSB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at -27.94 44.45 0)
 					(length 5.08)
@@ -2017,10 +1999,6 @@
 	(no_connect
 		(at 130.81 31.75)
 		(uuid "4e64b3e7-c861-4a1e-9b74-73ae57c174c4")
-	)
-	(no_connect
-		(at 130.81 27.94)
-		(uuid "96a854cf-6e7c-4e5a-a7bd-28629e46d4af")
 	)
 	(bus_entry
 		(at 326.39 72.39)
@@ -6511,7 +6489,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 146.05 90)
 			(effects
 				(font
@@ -6578,7 +6556,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 181.61 90)
 			(effects
 				(font
@@ -6645,7 +6623,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 110.49 90)
 			(effects
 				(font
@@ -6788,7 +6766,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 40.64 90)
 			(effects
 				(font
@@ -6855,7 +6833,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 59.69 90)
 			(effects
 				(font
@@ -6988,7 +6966,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 217.17 90)
 			(effects
 				(font
@@ -7055,7 +7033,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 120.65 90)
 			(effects
 				(font
@@ -7122,7 +7100,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 26.67 90)
 			(effects
 				(font
@@ -7413,9 +7391,6 @@
 		(pin "48"
 			(uuid "c6002169-e3ed-45f4-8150-f6bd7e3b7e6d")
 		)
-		(pin "49"
-			(uuid "75582cf5-6dab-4b46-8621-72e4aff49bb6")
-		)
 		(pin "5"
 			(uuid "0d49955b-cc27-4139-a42e-8efba12d2931")
 		)
@@ -7478,7 +7453,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 130.81 90)
 			(effects
 				(font
@@ -7545,7 +7520,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 166.37 90)
 			(effects
 				(font
@@ -7612,7 +7587,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 31.75 90)
 			(effects
 				(font
@@ -7679,7 +7654,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 156.21 90)
 			(effects
 				(font
@@ -7816,7 +7791,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 74.93 90)
 			(effects
 				(font
@@ -7949,7 +7924,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 171.45 90)
 			(effects
 				(font
@@ -8016,7 +7991,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 90.17 90)
 			(effects
 				(font
@@ -8083,7 +8058,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 140.97 90)
 			(effects
 				(font
@@ -8216,7 +8191,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 196.85 90)
 			(effects
 				(font
@@ -8283,7 +8258,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 186.69 90)
 			(effects
 				(font
@@ -8493,7 +8468,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 80.01 90)
 			(effects
 				(font
@@ -8692,7 +8667,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 45.72 90)
 			(effects
 				(font
@@ -8759,7 +8734,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 161.29 90)
 			(effects
 				(font
@@ -8826,7 +8801,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.143 212.09 90)
 			(effects
 				(font
@@ -8893,7 +8868,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 69.85 90)
 			(effects
 				(font
@@ -9108,7 +9083,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 191.77 90)
 			(effects
 				(font
@@ -9175,7 +9150,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 105.41 90)
 			(effects
 				(font
@@ -9242,7 +9217,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 176.53 90)
 			(effects
 				(font
@@ -9309,7 +9284,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 54.61 90)
 			(effects
 				(font
@@ -9376,7 +9351,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 201.93 90)
 			(effects
 				(font
@@ -9443,7 +9418,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 125.73 90)
 			(effects
 				(font
@@ -9656,7 +9631,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 115.57 90)
 			(effects
 				(font
@@ -9723,7 +9698,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 95.25 90)
 			(effects
 				(font
@@ -9855,7 +9830,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 100.33 90)
 			(effects
 				(font
@@ -9988,7 +9963,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 85.09 90)
 			(effects
 				(font
@@ -10055,7 +10030,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 64.77 90)
 			(effects
 				(font
@@ -10122,7 +10097,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 135.89 90)
 			(effects
 				(font
@@ -10256,7 +10231,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "33"
 			(at 255.27 151.13 90)
 			(effects
 				(font
