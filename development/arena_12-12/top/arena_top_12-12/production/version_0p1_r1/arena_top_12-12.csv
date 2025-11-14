@@ -1,6 +1,0 @@
-"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"C16,C24,C23,C19,C21,C22,C14,C18,C17,C20,C15,C13";"CP_Radial_D8.0mm_P2.50mm";12;"C_Polarized";;;
-2;"C3,C4,C12,C8,C5,C11,C1,C2,C6,C10,C9,C7";"C_1210_3225Metric";12;"100uF";;;
-3;"H1,H3,H4,H2";"MountingHole_4.5mm_Pad";4;"MountingHole_Pad";;;
-4;"J4";"DCJACK_2PIN_HIGHCURRENT";1;"Barrel_Jack";;;
-5;"P10,P12,P7,P9,P11,P5,P4,P1,P6,P8,P2,P3";"HEADER_TOP";12;"CONN15";;;

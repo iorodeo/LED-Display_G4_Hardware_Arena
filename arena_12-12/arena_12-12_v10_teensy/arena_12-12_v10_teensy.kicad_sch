@@ -1,0 +1,301 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a2511654-3a17-43f1-8b9e-c45e375533dc")
+	(paper "USLetter")
+	(title_block
+		(title "Arena 12-12 Teensy Modular LED Display")
+		(date "2024-12-23")
+		(rev "v10.3")
+		(company "IORodeo for Reiserlab @ Janelia")
+	)
+	(lib_symbols)
+	(text "12-12 Teensy Arena"
+		(exclude_from_sim no)
+		(at 113.03 33.02 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a21ad0e-00ff-4028-aa06-98e7a7edcffd")
+	)
+	(bus
+		(pts
+			(xy 85.09 58.42) (xy 93.98 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9ec503-d8ed-4709-8c2a-efe7eb12c912")
+	)
+	(bus
+		(pts
+			(xy 127 58.42) (xy 135.89 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db200f09-7795-40bf-bcef-b14b9afb9ed9")
+	)
+	(sheet
+		(at 93.98 49.784)
+		(size 33.02 18.034)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "089bb880-f417-4f64-98ac-7a8591f9a34e")
+		(property "Sheetname" "Level Shifters"
+			(at 93.98 49.0724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "level_shifters.kicad_sch"
+			(at 93.98 68.4026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PAN5V{PAN5V}" bidirectional
+			(at 127 58.42 0)
+			(uuid "480d7a5f-a5ec-4daa-b239-a93636939131")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PAN3V{PAN3V}" bidirectional
+			(at 93.98 58.42 180)
+			(uuid "5d4f953c-19b0-4f53-bd0d-b3422a7632b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "arena_12-12_v10_teensy"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 49.784)
+		(size 27.432 18.161)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17861c68-32c3-4000-8a50-4f303c28fa47")
+		(property "Sheetname" "Power"
+			(at 175.26 49.0724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 175.26 68.5296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "arena_12-12_v10_teensy"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.951 83.693)
+		(size 30.226 18.034)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24a22302-295f-4a79-8162-dc1243f756aa")
+		(property "Sheetname" "Ground Holes"
+			(at 115.951 82.9814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "holes.kicad_sch"
+			(at 115.951 102.3116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "arena_12-12_v10_teensy"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.182 49.784)
+		(size 25.908 18.034)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b6d0be6-08d3-404a-9e9b-565c640343d3")
+		(property "Sheetname" "Teensy"
+			(at 59.182 49.0724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "teensy.kicad_sch"
+			(at 59.182 68.4026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PAN3V{PAN3V}" bidirectional
+			(at 85.09 58.42 0)
+			(uuid "8d9a1fff-6639-4fa2-a0c8-4120bae8a6b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "arena_12-12_v10_teensy"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 49.784)
+		(size 30.48 18.161)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad9c294f-d898-4a63-8d96-c5c7fb69f139")
+		(property "Sheetname" "Panel Headers"
+			(at 135.89 49.0724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "panel_headers.kicad_sch"
+			(at 135.89 68.5296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PAN5V{PAN5V}" bidirectional
+			(at 135.89 58.42 180)
+			(uuid "49aa195d-e245-46fa-8354-affe8b81a14d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "arena_12-12_v10_teensy"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

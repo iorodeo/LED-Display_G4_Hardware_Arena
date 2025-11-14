@@ -9,6 +9,7 @@
 *.000
 *.bak
 *.bck
+*.lck
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *-backups
@@ -31,6 +32,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+!**/production/**/*.csv
 
 ### KiCad Patch ###
 rescue-backup/

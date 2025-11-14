@@ -10,11 +10,17 @@ nav_order: 7
 
 # Arena Board
 
-The arena board organizes panels in a geometry and provides structural integrity to the whole setup. Different shapes of cylindrical arenas have been built. They are often described by their number of panel columns populated and the virtual ones forming a full circle. An _arena 12-12_ is a closed cylinder formed by 12 columns in total. All columns can be populated in this design, but typically between 1 and 3 are left empty to access the center of the arena.
+The arena board organizes panels in a defined geometry and provides structural integrity to the whole setup. Different shapes of cylindrical arenas have been built. They are often described by the number of panel columns populated versus the virtual ones forming a full circle. An _arena 12-12_ is a closed cylinder formed by 12 columns in total. All columns can be populated in this design, but typically between 1 and 3 are left empty to access the center of the arena.
 
-Most functional designs will have two separate bill of material (BOM). One of the BOM should refer to _BOTTOM_, another to _TOP_. For a single setup, you will need two arena bards of the same type, one acting as the bottom board, one as the top board.
+If you need a quick summary: build 12-12 v8 (or v4) for a full cylinder, build 12-18 v1.1 when you need wider field access (e.g. electrophysiology), and ignore experimental versions unless you are actively studying power or timing:
 
-The BOM for the bottom arena board will usually contain more components. The bottom arena board is where the interconnect board and power are connected to and where the signals from the computer are distributed to the different columns. The top arena board gives structural integrity to the whole setup, it terminates signals, and sometimes provides additional power connectors.
+- 12-12 arenas: For most new builds use Version 8. It is considered a beta version with clear advantages over existing v2 and v4 setups, and fully compatible with all Generation 4 panels (older and newer panel revisions). Version 4 is also acceptable if you want the most recent iteration of the long‑used Version 2 with added noise improvements.
+- Version 10 of the 12-12 arena is a completely different system, based on an inexpensive teensy MCU instead of using a NI controller. This systems is slower and still under development; do not choose it for routine experiments yet.
+- Stay away from other versions (1, 2C, 3, 5, 6 notch variant, 7, 9) unless you have a specific historical or research need—several were experiments and some never worked (get in contact if you want to know more).
+- 12-18 arenas: Use the latest Version 1 production (v1.1). Version 2 only changes some routing and uses hidden vias; design files are not available and fabrication is harder, so v1.1 is the practical choice.
+- Prototype / development arenas (6-inf, early 12-18 v0.x, voltage experiment boards): Keep these for testing or firmware bring‑up only. Do not use them for routine behavioral, imaging, or electrophysiology experiments; rely on 12-12 v8 (or v4) or 12-18 v1.1.
+
+Below you find detailed historical notes starting with the 12-12 arena. The introduction here focuses only on which versions to choose today.
 
 ## arena 12-12 board {#a12-12}
 
@@ -22,7 +28,7 @@ The BOM for the bottom arena board will usually contain more components. The bot
 
 A 12-12 Arena places twelve columns of panels in a regular dodecagon, forming an approximate cylindrical display with 170mm diameter. These are type of arenas are useful for behavioral experiments.
 
-Currently, the most recent version 2 is the most widely used version. Nevertheless, version 4 has some improvements and is designed to minimize noise. This should work, but is not yet widely adapted. All other versions are either deprecated or prototypes.
+Legacy deployments mostly use Version 2 (often updated with v2.4 production files) and the notched mechanical variant Version 6. Version 4 adds noise reduction and is a practical variation of Version 2. Versions 7 and 9 were power experiments. Version 8 is the first stable KiCad redesign compatible with older panels and is the recommended choice for new builds. Version 10 is an inexpensive and much slower system still in development; treat it as experimental and do not use it yet for routine work.
 
 The __Arena 12-12 Version 1__ (OrCAD design file at `arena_12-12/arena_12-12_v1.brd`, see [schematics](assets/arena_12-12_v1_schematic.pdf)) was developed in June 2017 as a 6 layer board. In addition to the connectors approximating an inner circle with 170mm diameter, it had a second row of connectors about 180mm apart. Another visible distinction are eight vias inside the connector ring, which are used for the chip selects. The image on the right shows such an arena board with the ribbon connector on the top left and the power connector on the bottom left.
 
@@ -39,8 +45,30 @@ __Arena 12-12 Version 4__ (OrCAD design file at `arena_12-12/arena_12-12_v4.brd`
 The __Arena 12-12 Version 5__ (OrCAD design file at `arena_12-12/arena_12-12_v5.brd`, see [schematics](assets/arena_12-12_v5_schematic.pdf)) is an experimental 6 layer design without a [interconnect board](#interconnect) but instead with a direct VHDCI connector. Development is ongoing since Summer 2020, but the design does not work yet.
 
 ![Rendering of a notched Arena 12-12 Version 6](assets/arena_12-12_v6p0_front_render.png){:standalone .ifr data-img-class="pop"}
+routing
+The __Arena 12-12 Version 6__ (OrCAD: `arena_12-12/arena_12-12_v6.brd`, [schematic](assets/arena_12-12_v6_schematic.pdf)) is electrically the same as Version 2. The only difference is a notch (cutout) so the arena can slide under a specific microscope. Same schematic, same signals, same BOM (apart from mechanical mounting parts). Use production files at `arena_12-12/production_v6/arena_12-12_v6p0.zip`. It was first labeled v2.2, then renamed to v6.0 to avoid confusion with later v2.x updates.
 
-The __Arena 12-12 Version 6__ (OrCAD design file at `arena_12-12/arena_12-12_v6.brd`, see [schematics](assets/arena_12-12_v6_schematic.pdf)) from June 2019 is technically the same as Version 2 (hence the schematic is literally the same), but has a cutout in the PCB to fit under a specific microscope (see image of _notched_ arena). The latest production files are at `arena_12-12/production_v6/arena_12-12_v6p0.zip`. This version was previously know as version v2.2, but since later improvements to v2.1 lead to confusion, we rebranded it as version v6.0.
+__Arena 12-12 Version 7__ (KiCad: `arena_12-12/arena_12-12_v7_ni/arena_12-12_v7_ni.kicad_pro`, [schematics](assets/arena_12-12_NI_v7_schematics.pdf)) is the first version with a dedicated top PCB (before this one board was used twice). It is also the point where active design moved into KiCad so the source files are openly available. Version 7 tried a higher-voltage distribution concept and local regulation on “comm” boards. We built a few units, but did not adopt this idea. Keep it for historical notes; do not choose it for a normal system.
+
+![Arena 12-12 Version 8 rendering](arena_12-12_v8_ni_front_render.png){:standalone .ifr data-img-class="pop"}
+
+__Arena 12-12 Version 8__ (KiCad: `arena_12-12/arena_12-12_v8_ni/arena_12-12_v8_ni.kicad_pro`, [schematics](assets/arena_12-12_v8_ni_schematics.pdf)) is the first stable KiCad redesign that stays fully compatible with panel hardware from versions 1–6. Routing is cleaner (shorter power paths, clearer separation of signal and power), and silkscreen labels (pin 1 marks, polarity, column numbering) are easier to read. Early v8 boards had a column rotation / inversion issue; this was fixed and v8.4 (silkscreen may show v0.4) is the recommended drop‑in if you need an intermediate KiCad build.
+
+__Arena 12-12 Version 9__ (KiCad: `arena_12-12/arena_12-12_v9_teensy/arena_12-12_v9_teensy.kicad_pro`, [schematics](assets/arena_12-12_v9_teensy_schematics.pdf)) is a Teensy‑focused prototype again testing higher voltage and local regulation ideas. Iteration 2 improved physical placement for the Teensy. These boards are NOT electrically compatible with the normal Generation 4 panel interface (old or newer panel generations). Only use v9 if you are studying alternative power methods or doing exploratory firmware work. Otherwise move straight to v10.
+
+__Arena 12-12 Version 10__ (KiCad: `arena_12-12/arena_12-12_v10_teensy/arena_12-12_v10_teensy.kicad_pro`, [schematics](assets/arena_12-12_v10_teensy_schematics.pdf)) a Teensy-focused version that is compatible with all Generation 4 panels (legacy and newer revisions). This is our development version for an inexpensive behavioral system.
+
+__Arena 12-12 Version 11__ (KiCad: `arena_12-12/arena_12-12_v11_top/arena_12-12_v11_top.kicad_pro`, [schematics](assets/arena_12-12_v11_top_schematics.pdf)) is a dedicated top board that provides mechanical support and termination for the bottom boards. This version is recommended as the top board for any of the v7–v10 bottom boards when a top is needed. It features improved mechanical design and consistent connector placement.
+
+__Arena 12-12 Version 12__ (KiCad: `arena_12-12/arena_12-12_v12_belt/arena_12-12_v12_belt.kicad_pro`, [schematics](assets/arena_12-12_v12_belt_schematics.pdf)) is a "belt" variant of the top board. This variant provides an alternative mechanical configuration while maintaining the same electrical interface and compatibility with v7–v10 bottom boards.
+
+### Top vs. Bottom PCB Split (v7+)
+
+Versions 1–6 used one PCB twice: you built a “bottom” and a “top” by loading different BOM parts. Starting with version 7 there are TWO separate PCB layouts. The bottom board carries power distribution and main signal routing. The top board gives mechanical support, aligns the ring, and provides termination or extra connectors. Do not mix their roles; they are shaped and routed differently. When you modify or extend the design (extra sensors, new controller footprint) keep the clear silkscreen labels and test pad markings introduced and refined in versions 8–10 so others can service the boards easily.
+
+### Open KiCad Source Availability
+
+With the KiCad migration (initiated at v7), full schematic (`.kicad_sch`) and layout (`.kicad_pcb`) sources are openly accessible, enabling transparent modification, community contributions, forked experimental variants, and long-term archival. Users considering substantive changes (power filtering experiments, mounting variations, controller substitution) are encouraged to maintain consistent silkscreen conventions for maintainability and comparability across laboratories.
 
 ## 12-18 arena board {#a12-18}
 

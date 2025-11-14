@@ -1,0 +1,303 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a2511654-3a17-43f1-8b9e-c45e375533dc")
+	(paper "User" 279.4 203.2)
+	(title_block
+		(title "12-12 NI G4.1 Arena Modular LED Display")
+		(date "2025-08-06")
+		(rev "v8.4")
+		(company "IORodeo for Reiserlab @ Janelia")
+	)
+	(lib_symbols)
+	(text "12-12 NI Arena"
+		(exclude_from_sim no)
+		(at 113.03 33.02 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a21ad0e-00ff-4028-aa06-98e7a7edcffd")
+	)
+	(bus
+		(pts
+			(xy 127.254 58.42) (xy 136.144 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11599b83-9845-413e-9811-ae4cea08730c")
+	)
+	(bus
+		(pts
+			(xy 85.471 58.42) (xy 94.107 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5401b2d-5891-43a2-81cd-8d19a85723fd")
+	)
+	(sheet
+		(at 94.107 49.784)
+		(size 33.147 18.034)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "089bb880-f417-4f64-98ac-7a8591f9a34e")
+		(property "Sheetname" "Level Shifters"
+			(at 94.107 49.0724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "level_shifters.kicad_sch"
+			(at 94.107 68.4026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PAN5V{PAN5V}" bidirectional
+			(at 127.254 58.42 0)
+			(uuid "7ac534d2-0cc4-4d65-b750-e1b075b9ae6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PAN3V{PAN3V}" bidirectional
+			(at 94.107 58.42 180)
+			(uuid "34d27c6e-9507-4aba-ab2b-d933b587a542")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "arena_12-12_v8_ni"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 49.784)
+		(size 27.432 18.161)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17861c68-32c3-4000-8a50-4f303c28fa47")
+		(property "Sheetname" "Power & Voltage Regulators"
+			(at 175.26 49.0724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 175.26 68.5296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "arena_12-12_v8_ni"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.951 83.693)
+		(size 30.226 18.034)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24a22302-295f-4a79-8162-dc1243f756aa")
+		(property "Sheetname" "Ground Holes"
+			(at 115.951 82.9814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "holes.kicad_sch"
+			(at 115.951 102.3116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "arena_12-12_v8_ni"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 136.144 49.784)
+		(size 30.226 18.161)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad9c294f-d898-4a63-8d96-c5c7fb69f139")
+		(property "Sheetname" "Panel Headers"
+			(at 136.144 49.0724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "panel_headers.kicad_sch"
+			(at 136.144 68.5296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PAN5V{PAN5V}" bidirectional
+			(at 136.144 58.42 180)
+			(uuid "14e82bed-75aa-42e2-aadf-1d362ed4ae92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "arena_12-12_v8_ni"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.452 49.403)
+		(size 25.019 18.034)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf1bf6c0-d319-44c6-9ef9-a2dffab7743b")
+		(property "Sheetname" "NI Connector"
+			(at 60.452 48.6914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ni_connector.kicad_sch"
+			(at 60.452 68.0216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PAN3V{PAN3V}" bidirectional
+			(at 85.471 58.42 0)
+			(uuid "fcde3bb4-5b21-45af-9b48-40070aae4420")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "arena_12-12_v8_ni"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

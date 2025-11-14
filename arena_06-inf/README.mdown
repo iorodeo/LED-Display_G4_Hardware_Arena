@@ -4,7 +4,7 @@ The nomenclature follows the description at [Arena Board](https://reiserlab.gith
 
 ## Arena 06-inf Teensy
 
-6 columns driven by a single [Teensy 4.1](https://www.pjrc.com/store/teensy41.html).
+6 columns driven by a single [Teensy 4.1](https://www.pjrc.com/store/teensy41.html). R2 fixes a missing connection on the Teensy pin 48→49
 
 ## Arena 06-inf Raspberry Pi
 

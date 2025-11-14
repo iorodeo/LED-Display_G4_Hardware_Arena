@@ -1,0 +1,42 @@
+## Summary
+
+This arena was an attempt to delivery higher voltages to the comm board, shift the voltage there and try to keep the voltage stable in that way. We built some board but the reconsidered and developed v8 that is compatible with existing G4 systems. There is no need to build this version, but we wanted to document that effort as others might have similar ideas.
+
+## Version
+
+A note on the version numbering: This board was developed as the NI arena v0.1. The first two production runs were under version numbers v0.1.1 and v0.1.2. We renamed this arena to v7 (and therefore v7.1, v7.1.1, and v7.1.2) to fit with the existing naming scheme for the 12-12 arenas.
+
+## Files
+
+Additional files, like a python script to place a connector, pdfs of the schematic and realistic renderings are inside the `assets` folder.
+
+## Geometry
+
+
+### panel header pin distance from front
+
+D = PCB + HDR1 + HDR2 - 0.5 * HDR3
+
+where
+
+- PCB  = thickness of PCB (1.6mm)
+- HDR1 = distance from PCB to top of insulation for 2x2 headers on driver (3.81mm)
+- HDR2 = distance from PCB to top of insulation for 2x2 headers on comm (8.5mm)
+- HDR3 = distance from PCB to pin in 15-pos header on comm (0.5*2.54mm)
+
+
+D = 1.6 + 3.81 + 8.5 + 0.5*2.54 = 12.01mm
+
+
+## Alternative components
+
+### Q2
+
+- ME2306D (LCSC C165220) or
+- SI2302-TP (LSCS C4748714; DigiKey SI2302-TPMSCT-ND)
+
+
+### J1
+
+- 5174339-5 (DigiKey A123166-ND)
+- 2-5174339-5 (DigiKey A121355-ND) with thicker gold plating

@@ -1,0 +1,30 @@
+## Summary
+
+This version is electrically compatible with earlier versions of G4 arenas. After a brief attempt to solve the electrical issues with higher voltages on the arena board and regulating it down on the comm boards, this version is a complete reimplementation of the G4 arena in KiCad.
+
+We had two small production runs, both work well in our hands.
+
+## Files
+
+Additional files are in the `assets` folder. This includes the configuration for the autorouter, pdfs of the schematics, and photorealistic renderings of the PCB.
+
+## Version
+
+This board was developed as arena_12-12_v0.1. As this version number conflicts with several other development versions, we renamed it to v8. The different minor and patch versions stayed the same.
+
+Earlier versions had the rotation of the columns inverted and rotated by 20°, version v8.4 (the produced PCB reads v0.4) should work as direct drop in replacement for G4 arenas.
+
+## panel header pin distance from front
+
+D = PCB + HDR1 + HDR2 - 0.5*HDR3
+
+where
+
+- PCB  = thickness of PCB (1.6mm)
+- HDR1 = distance from PCB to top of insulation for 2x2 headers on driver (3.81mm)
+- HDR2 = distance from PCB to top of insulation for 2x2 headers on comm (8.5mm)
+- HDR3 = distance from PCB to pin in 15-pos header on comm (0.5*2.54mm)
+
+
+D = 1.6 + 3.81 + 8.5 + 0.5*2.54 = 12.01mm
+
